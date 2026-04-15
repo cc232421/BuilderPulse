@@ -12,9 +12,9 @@ Daily analysis of 300+ signals from Hacker News, GitHub, Product Hunt, HuggingFa
 
 ## <a id="english"></a>📰 April 15, 2026
 
-**Today: WordPress supply chain attack via blockchain C2, Backblaze silently stopped backing up OneDrive/Dropbox, Claude managed agents surging +3,400%**
+**Today: WordPress supply chain attack via Ethereum C2, Backblaze silently stopped backing up cloud folders, Claude managed agents surging +3400%**
 
-💡 **If you had 2 hours, build a Python CLI that audits which files Backblaze silently excludes from backup**
+💡 **If you had 2 hours, Backblaze silently dropped your files — 611 furious users still don't know what's missing**
 
 <p align="center">
 
@@ -25,13 +25,11 @@ Daily analysis of 300+ signals from Hacker News, GitHub, Product Hunt, HuggingFa
 
 </p>
 
-### Last 7 days
+### Last 7 days — what you could have built
 
-| Date | 2-hour side project idea |
-|------|--------------------------|
-| [Apr 15](en/2026/2026-04-15.md) | build a Python CLI that audits which files Backblaze silently excludes from backup |
-| [Apr 14](en/2026/2026-04-14.md) | build a web app that indexes public GitHub repos with CLAUDE.md files, lets users browse and rate them, and generates one-click install commands |
-| [Apr 13](en/2026/2026-04-13.md) | build a static comparison page for AI agent frameworks with a cost calculator feature |
+- **[Apr 15](en/2026/2026-04-15.md)**: Backblaze silently dropped your files — 611 furious users still don't know what's missing
+- **[Apr 14](en/2026/2026-04-14.md)**: 14,317 devs starred a single CLAUDE.md — nobody built the discovery layer yet
+- **[Apr 13](en/2026/2026-04-13.md)**: 38,426 GitHub stars, zero comparison guides — who claims the AI agent framework crown?
 
 [Full archive →](en/)
 
@@ -43,9 +41,9 @@ Daily analysis of 300+ signals from Hacker News, GitHub, Product Hunt, HuggingFa
 
 ### 📰 2026 年 4 月 15 日
 
-**今日: WordPress 供应链攻击植入区块链 C2 后门、Backblaze 悄删同步文件夹用户无知、Claude managed agents 搜索量暴涨 3400%**
+**今日: WordPress 供应链攻击用区块链做C2、Backblaze 悄停 OneDrive/Dropbox 备份致数据丢失、"Claude managed agents" 搜索量暴涨 3400%**
 
-💡 **如果你有 2 小时, 做一个检查 Backblaze 实际备份范围并生成报告的 CLI 工具**
+💡 **如果你有 2 小时, 611怒评，你的备份正在消失**
 
 <p align="center">
 
@@ -56,13 +54,12 @@ Daily analysis of 300+ signals from Hacker News, GitHub, Product Hunt, HuggingFa
 
 </p>
 
-### 最近 7 天
+### 最近 7 天 — 你本可以做的事
 
-| 日期 | 2 小时能做的事 |
-|------|----------------|
-| [4月15日](zh/2026/2026-04-15.md) | 做一个检查 Backblaze 实际备份范围并生成报告的 CLI 工具 |
-| [4月14日](zh/2026/2026-04-14.md) | 做一个 Web 应用索引 GitHub 上的 CLAUDE.md 和技能文件供用户浏览搜索评分 |
-| [4月13日](zh/2026/2026-04-13.md) | 做一个对比 hermes-agent 等 AI Agent 框架选型与成本的深度文章页面 |
+
+- **[4月15日](zh/2026/2026-04-15.md)**: 611怒评，你的备份正在消失
+- **[4月14日](zh/2026/2026-04-14.md)**: Skills发现层空白，14317颗星谁来填
+- **[4月13日](zh/2026/2026-04-13.md)**: AI框架搜索暴涨3750%，内容真空谁先占
 
 [完整归档 →](zh/)
 
