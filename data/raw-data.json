@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-20T00:58:50.419Z",
+  "generatedAt": "2026-04-20T01:10:46.013Z",
   "hackerNews": [
     {
       "by": "colesantiago",
-      "descendants": 298,
+      "descendants": 304,
       "id": 47824463,
       "kids": [
         47826825,
@@ -17,9 +17,9 @@
         47826812,
         47825559,
         47824649,
+        47827598,
         47826564,
         47825676,
-        47827598,
         47825787,
         47825120,
         47825753,
@@ -33,18 +33,19 @@
         47826491,
         47824860,
         47827060,
+        47827233,
         47827160,
         47826557,
         47824782,
         47825808,
         47825913,
-        47827233,
         47825822,
+        47824876,
         47827232,
         47826356,
         47824642,
-        47824876,
         47824838,
+        47829200,
         47828166,
         47827090,
         47825563,
@@ -57,7 +58,7 @@
         47825556,
         47824935
       ],
-      "score": 505,
+      "score": 510,
       "text": "<a href=\"https:&#x2F;&#x2F;vercel.com&#x2F;kb&#x2F;bulletin&#x2F;vercel-april-2026-security-incident\" rel=\"nofollow\">https:&#x2F;&#x2F;vercel.com&#x2F;kb&#x2F;bulletin&#x2F;vercel-april-2026-security-in...</a>",
       "time": 1776608078,
       "title": "Vercel April 2026 security incident",
@@ -66,15 +67,16 @@
     },
     {
       "by": "vinhnx",
-      "descendants": 10,
+      "descendants": 13,
       "id": 47822734,
       "kids": [
-        47829131,
+        47829235,
         47829031,
+        47829131,
         47822826,
         47828775
       ],
-      "score": 40,
+      "score": 47,
       "time": 1776587573,
       "title": "A Brief History of Fish Sauce",
       "type": "story",
@@ -82,7 +84,7 @@
     },
     {
       "by": "crescit_eundo",
-      "descendants": 70,
+      "descendants": 72,
       "id": 47826100,
       "kids": [
         47827602,
@@ -90,34 +92,46 @@
         47827963,
         47826914,
         47826694,
+        47829223,
         47828468,
         47827650,
         47827728,
         47828920,
         47827547,
         47827036,
-        47828147,
         47826975,
+        47828147,
         47827600,
         47828102,
         47827506
       ],
-      "score": 143,
+      "score": 145,
       "time": 1776620643,
       "title": "The Bromine Chokepoint",
       "type": "story",
       "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/"
     },
     {
+      "by": "shivampkumar",
+      "descendants": 0,
+      "id": 47828896,
+      "score": 10,
+      "text": "I ported Microsoft&#x27;s TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.<p>I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.<p>Generates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac</a>",
+      "time": 1776643636,
+      "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
+      "type": "story",
+      "url": "https://github.com/shivampkumar/trellis-mac"
+    },
+    {
       "by": "linsys",
-      "descendants": 5,
+      "descendants": 6,
       "id": 47808956,
       "kids": [
         47828953,
         47828902,
         47829036
       ],
-      "score": 17,
+      "score": 19,
       "text": "I&#x27;ve been presenting at local meetups about Context Engineering, RAG, Skills, etc.. I even have a vbrownbag coming up on LinkedIn about this topic so I figured I would make a basic example that uses bedrock so I can use it in my talks or vbrownbags. Hopefully it&#x27;s useful.",
       "time": 1776450049,
       "title": "Show HN: How context engineering works, a runnable reference",
@@ -125,33 +139,15 @@
       "url": "https://github.com/outcomeops/context-engineering"
     },
     {
-      "by": "johnnyApplePRNG",
-      "descendants": 25,
-      "id": 47828149,
-      "kids": [
-        47829121,
-        47828924,
-        47829020,
-        47828998,
-        47828994,
-        47829012
-      ],
-      "score": 24,
-      "time": 1776637162,
-      "title": "Aliens.gov will be running as a WordPress multisite",
-      "type": "story",
-      "url": "https://aliens.gov/"
-    },
-    {
       "by": "doener",
-      "descendants": 12,
+      "descendants": 13,
       "id": 47828420,
       "kids": [
         47828745,
         47828710,
         47828562
       ],
-      "score": 48,
+      "score": 52,
       "text": "Related ongoing thread: <i>Swiss authorities want to reduce dependency on Microsoft</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47827383\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47827383</a>",
       "time": 1776639347,
       "title": "2,100 Swiss municipalities showing which provider handles their official email",
@@ -160,21 +156,21 @@
     },
     {
       "by": "1vuio0pswjnm7",
-      "descendants": 24,
+      "descendants": 25,
       "id": 47828225,
       "kids": [
         47828764,
         47829156,
-        47829183,
+        47828997,
         47828366,
         47828985,
-        47828997,
-        47829017,
         47828908,
+        47829017,
+        47829183,
         47829124,
         47828705
       ],
-      "score": 63,
+      "score": 66,
       "time": 1776637819,
       "title": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud",
       "type": "story",
@@ -193,9 +189,9 @@
         47828310,
         47827613,
         47823597,
+        47828592,
         47823855,
         47823804,
-        47828592,
         47824472,
         47823582,
         47824256,
@@ -208,11 +204,26 @@
         47823452,
         47824429
       ],
-      "score": 192,
+      "score": 195,
       "time": 1776594989,
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
       "type": "story",
       "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/"
+    },
+    {
+      "by": "doener",
+      "descendants": 2,
+      "id": 47828444,
+      "kids": [
+        47829214,
+        47828485,
+        47829191
+      ],
+      "score": 8,
+      "time": 1776639515,
+      "title": "Swiss AI Initiative (2023)",
+      "type": "story",
+      "url": "https://www.swiss-ai.org"
     },
     {
       "by": "vcf",
@@ -220,8 +231,8 @@
       "id": 47826104,
       "kids": [
         47827275,
-        47828700,
         47826345,
+        47828700,
         47828975,
         47827599,
         47827783,
@@ -242,6 +253,27 @@
       "url": "https://www.vincentgregoire.com/faceoff/"
     },
     {
+      "by": "Akcium",
+      "descendants": 11,
+      "id": 47826502,
+      "kids": [
+        47828866,
+        47828890,
+        47828471,
+        47828362,
+        47828209,
+        47828603,
+        47828309,
+        47828243,
+        47829118
+      ],
+      "score": 42,
+      "time": 1776623760,
+      "title": "Six Levels of Dark Mode (2024)",
+      "type": "story",
+      "url": "https://cssence.com/2024/six-levels-of-dark-mode/"
+    },
+    {
       "by": "lukasec",
       "descendants": 27,
       "id": 47781950,
@@ -260,56 +292,35 @@
         47828193,
         47828245,
         47829181,
-        47828818,
         47828559,
+        47828818,
         47828425,
         47782414
       ],
-      "score": 40,
+      "score": 41,
       "time": 1776272619,
       "title": "Prove you are a robot: CAPTCHAs for agents",
       "type": "story",
       "url": "https://browser-use.com/posts/prove-you-are-a-robot"
     },
     {
-      "by": "Akcium",
-      "descendants": 10,
-      "id": 47826502,
-      "kids": [
-        47828866,
-        47828890,
-        47828471,
-        47828362,
-        47828209,
-        47828603,
-        47828309,
-        47828243,
-        47829118
-      ],
-      "score": 41,
-      "time": 1776623760,
-      "title": "Six Levels of Dark Mode (2024)",
-      "type": "story",
-      "url": "https://cssence.com/2024/six-levels-of-dark-mode/"
-    },
-    {
       "by": "DamnInteresting",
-      "descendants": 134,
+      "descendants": 135,
       "id": 47806096,
       "kids": [
         47824745,
-        47829055,
         47823435,
+        47829055,
         47828301,
         47824657,
-        47828897,
         47823571,
+        47828897,
         47824541,
         47823391,
         47823629,
         47823787,
-        47828487,
         47825131,
+        47828487,
         47826376,
         47823848,
         47825679,
@@ -323,8 +334,8 @@
         47824729,
         47823403,
         47824792,
-        47826217,
         47823734,
+        47826217,
         47823811,
         47827643,
         47827936,
@@ -334,13 +345,13 @@
         47826248,
         47825642,
         47823750,
-        47826931,
         47825136,
+        47826931,
         47824498,
         47823831,
         47825603
       ],
-      "score": 525,
+      "score": 526,
       "time": 1776434848,
       "title": "Archive of BYTE magazine, starting with issue #1 in 1975",
       "type": "story",
@@ -353,148 +364,93 @@
       "kids": [
         47828837
       ],
-      "score": 26,
+      "score": 27,
       "time": 1776626337,
       "title": "Scientific datasets are riddled with copy-paste errors",
       "type": "story",
       "url": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/"
     },
     {
-      "by": "helloplanets",
-      "descendants": 104,
-      "id": 47822486,
+      "by": "eigenhombre",
+      "descendants": 18,
+      "id": 47828427,
       "kids": [
-        47824980,
-        47827646,
-        47824155,
-        47823854,
-        47823880,
-        47824197,
-        47823918,
-        47828482,
-        47823541,
-        47824289,
-        47824835,
-        47827640,
-        47823959,
-        47823494,
-        47825587,
-        47826382,
-        47825312,
-        47826616,
-        47827213,
-        47825218,
-        47825856,
-        47823604,
-        47825828,
-        47826513,
-        47827702,
-        47823568,
-        47824706,
-        47824273,
-        47824478,
-        47826424,
-        47823749
+        47828951,
+        47828910,
+        47828981,
+        47828957,
+        47828971,
+        47828967,
+        47828898,
+        47829195,
+        47829172,
+        47829128,
+        47828903
       ],
-      "score": 277,
-      "time": 1776584288,
-      "title": "The seven programming ur-languages (2022)",
+      "score": 36,
+      "time": 1776639392,
+      "title": "Got an Old Kindle? It Might Not Work Anymore",
       "type": "story",
-      "url": "https://madhadron.com/programming/seven_ur_languages.html"
-    },
-    {
-      "by": "omer_k",
-      "descendants": 183,
-      "id": 47822414,
-      "kids": [
-        47829158,
-        47822732,
-        47827700,
-        47822618,
-        47828836,
-        47822873,
-        47828749,
-        47822639,
-        47822798,
-        47828607,
-        47828628,
-        47822837,
-        47823063,
-        47822843,
-        47827471,
-        47827304,
-        47827647,
-        47822894,
-        47822594,
-        47822722,
-        47827961,
-        47823136,
-        47827866
-      ],
-      "score": 180,
-      "time": 1776583124,
-      "title": "The RAM shortage could last years",
-      "type": "story",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years"
+      "url": "https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/"
     }
   ],
   "githubTrending": [
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": "61425",
+      "stars": "61476",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  "
     },
     {
       "fullName": "NousResearch/hermes-agent",
-      "stars": "102153",
+      "stars": "102183",
       "description": "The agent that grows with you  ",
       "language": "Python"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": "63335",
+      "stars": "63340",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.  ",
       "language": "TypeScript"
     },
     {
       "fullName": "EvoMap/evolver",
-      "stars": "5531",
+      "stars": "5539",
       "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai  ",
       "language": "JavaScript"
     },
     {
       "fullName": "lsdefine/GenericAgent",
-      "stars": "4542",
+      "stars": "4543",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption  ",
       "language": "Python"
     },
     {
       "fullName": "shiyu-coder/Kronos",
-      "stars": "19601",
+      "stars": "19602",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets  ",
       "language": "Python"
     },
     {
       "fullName": "multica-ai/multica",
-      "stars": "16765",
+      "stars": "16774",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.  ",
       "language": "TypeScript"
     },
     {
       "fullName": "virattt/ai-hedge-fund",
-      "stars": "56348",
+      "stars": "56354",
       "description": "An AI Hedge Fund Team  ",
       "language": "Python"
     },
     {
       "fullName": "microsoft/markitdown",
-      "stars": "112622",
+      "stars": "112629",
       "description": "Python tool for converting files and office documents to Markdown.  ",
       "language": "Python"
     },
     {
       "fullName": "Lordog/dive-into-llms",
-      "stars": "32463",
+      "stars": "32469",
       "description": "《动手学大模型Dive into LLMs》系列编程实践教程  ",
       "language": "Jupyter Notebook"
     }
@@ -550,5 +506,6 @@
       "keyword": "managed agents",
       "status": "Trending"
     }
-  ]
+  ],
+  "reddit": []
 }
