@@ -1,9 +1,28 @@
 {
-  "generatedAt": "2026-04-20T01:10:46.013Z",
+  "generatedAt": "2026-04-20T01:15:14.264Z",
   "hackerNews": [
     {
+      "by": "vinhnx",
+      "descendants": 15,
+      "id": 47822734,
+      "kids": [
+        47829268,
+        47829264,
+        47829235,
+        47829031,
+        47829131,
+        47822826,
+        47828775
+      ],
+      "score": 52,
+      "time": 1776587573,
+      "title": "A Brief History of Fish Sauce",
+      "type": "story",
+      "url": "https://www.legalnomads.com/fish-sauce/"
+    },
+    {
       "by": "colesantiago",
-      "descendants": 304,
+      "descendants": 305,
       "id": 47824463,
       "kids": [
         47826825,
@@ -58,29 +77,12 @@
         47825556,
         47824935
       ],
-      "score": 510,
+      "score": 512,
       "text": "<a href=\"https:&#x2F;&#x2F;vercel.com&#x2F;kb&#x2F;bulletin&#x2F;vercel-april-2026-security-incident\" rel=\"nofollow\">https:&#x2F;&#x2F;vercel.com&#x2F;kb&#x2F;bulletin&#x2F;vercel-april-2026-security-in...</a>",
       "time": 1776608078,
       "title": "Vercel April 2026 security incident",
       "type": "story",
       "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/"
-    },
-    {
-      "by": "vinhnx",
-      "descendants": 13,
-      "id": 47822734,
-      "kids": [
-        47829235,
-        47829031,
-        47829131,
-        47822826,
-        47828775
-      ],
-      "score": 47,
-      "time": 1776587573,
-      "title": "A Brief History of Fish Sauce",
-      "type": "story",
-      "url": "https://www.legalnomads.com/fish-sauce/"
     },
     {
       "by": "crescit_eundo",
@@ -92,8 +94,8 @@
         47827963,
         47826914,
         47826694,
-        47829223,
         47828468,
+        47829223,
         47827650,
         47827728,
         47828920,
@@ -112,17 +114,6 @@
       "url": "https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/"
     },
     {
-      "by": "shivampkumar",
-      "descendants": 0,
-      "id": 47828896,
-      "score": 10,
-      "text": "I ported Microsoft&#x27;s TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.<p>I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.<p>Generates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac</a>",
-      "time": 1776643636,
-      "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
-      "type": "story",
-      "url": "https://github.com/shivampkumar/trellis-mac"
-    },
-    {
       "by": "linsys",
       "descendants": 6,
       "id": 47808956,
@@ -131,7 +122,7 @@
         47828902,
         47829036
       ],
-      "score": 19,
+      "score": 20,
       "text": "I&#x27;ve been presenting at local meetups about Context Engineering, RAG, Skills, etc.. I even have a vbrownbag coming up on LinkedIn about this topic so I figured I would make a basic example that uses bedrock so I can use it in my talks or vbrownbags. Hopefully it&#x27;s useful.",
       "time": 1776450049,
       "title": "Show HN: How context engineering works, a runnable reference",
@@ -139,10 +130,37 @@
       "url": "https://github.com/outcomeops/context-engineering"
     },
     {
+      "by": "shivampkumar",
+      "descendants": 0,
+      "id": 47828896,
+      "score": 12,
+      "text": "I ported Microsoft&#x27;s TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.<p>I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.<p>Generates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;shivampkumar&#x2F;trellis-mac</a>",
+      "time": 1776643636,
+      "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
+      "type": "story",
+      "url": "https://github.com/shivampkumar/trellis-mac"
+    },
+    {
       "by": "doener",
-      "descendants": 13,
+      "descendants": 2,
+      "id": 47828444,
+      "kids": [
+        47829214,
+        47828485,
+        47829191
+      ],
+      "score": 10,
+      "time": 1776639515,
+      "title": "Swiss AI Initiative (2023)",
+      "type": "story",
+      "url": "https://www.swiss-ai.org"
+    },
+    {
+      "by": "doener",
+      "descendants": 14,
       "id": 47828420,
       "kids": [
+        47829263,
         47828745,
         47828710,
         47828562
@@ -156,13 +174,13 @@
     },
     {
       "by": "1vuio0pswjnm7",
-      "descendants": 25,
+      "descendants": 26,
       "id": 47828225,
       "kids": [
         47828764,
         47829156,
-        47828997,
         47828366,
+        47828997,
         47828985,
         47828908,
         47829017,
@@ -170,11 +188,38 @@
         47829124,
         47828705
       ],
-      "score": 66,
+      "score": 71,
       "time": 1776637819,
       "title": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud",
       "type": "story",
       "url": "https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/"
+    },
+    {
+      "by": "Brajeshwar",
+      "descendants": 86,
+      "id": 47825160,
+      "kids": [
+        47825421,
+        47826055,
+        47825272,
+        47826250,
+        47825839,
+        47826592,
+        47826643,
+        47825385,
+        47825599,
+        47826773,
+        47825807,
+        47825393,
+        47826278,
+        47825757,
+        47826098
+      ],
+      "score": 107,
+      "time": 1776613720,
+      "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
+      "type": "story",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/"
     },
     {
       "by": "pretext",
@@ -204,26 +249,11 @@
         47823452,
         47824429
       ],
-      "score": 195,
+      "score": 196,
       "time": 1776594989,
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
       "type": "story",
       "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/"
-    },
-    {
-      "by": "doener",
-      "descendants": 2,
-      "id": 47828444,
-      "kids": [
-        47829214,
-        47828485,
-        47829191
-      ],
-      "score": 8,
-      "time": 1776639515,
-      "title": "Swiss AI Initiative (2023)",
-      "type": "story",
-      "url": "https://www.swiss-ai.org"
     },
     {
       "by": "vcf",
@@ -254,12 +284,12 @@
     },
     {
       "by": "Akcium",
-      "descendants": 11,
+      "descendants": 12,
       "id": 47826502,
       "kids": [
         47828866,
-        47828890,
         47828471,
+        47828890,
         47828362,
         47828209,
         47828603,
@@ -297,7 +327,7 @@
         47828425,
         47782414
       ],
-      "score": 41,
+      "score": 42,
       "time": 1776272619,
       "title": "Prove you are a robot: CAPTCHAs for agents",
       "type": "story",
@@ -369,46 +399,23 @@
       "title": "Scientific datasets are riddled with copy-paste errors",
       "type": "story",
       "url": "https://www.sciencedetective.org/scientific-datasets-are-riddled-with-copy-paste-errors/"
-    },
-    {
-      "by": "eigenhombre",
-      "descendants": 18,
-      "id": 47828427,
-      "kids": [
-        47828951,
-        47828910,
-        47828981,
-        47828957,
-        47828971,
-        47828967,
-        47828898,
-        47829195,
-        47829172,
-        47829128,
-        47828903
-      ],
-      "score": 36,
-      "time": 1776639392,
-      "title": "Got an Old Kindle? It Might Not Work Anymore",
-      "type": "story",
-      "url": "https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/"
     }
   ],
   "githubTrending": [
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": "61476",
+      "stars": "61496",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  "
     },
     {
       "fullName": "NousResearch/hermes-agent",
-      "stars": "102183",
+      "stars": "102197",
       "description": "The agent that grows with you  ",
       "language": "Python"
     },
     {
       "fullName": "thedotmack/claude-mem",
-      "stars": "63340",
+      "stars": "63344",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.  ",
       "language": "TypeScript"
     },
@@ -420,7 +427,7 @@
     },
     {
       "fullName": "lsdefine/GenericAgent",
-      "stars": "4543",
+      "stars": "4545",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption  ",
       "language": "Python"
     },
@@ -432,7 +439,7 @@
     },
     {
       "fullName": "multica-ai/multica",
-      "stars": "16774",
+      "stars": "16777",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.  ",
       "language": "TypeScript"
     },
@@ -444,13 +451,13 @@
     },
     {
       "fullName": "microsoft/markitdown",
-      "stars": "112629",
+      "stars": "112632",
       "description": "Python tool for converting files and office documents to Markdown.  ",
       "language": "Python"
     },
     {
       "fullName": "Lordog/dive-into-llms",
-      "stars": "32469",
+      "stars": "32473",
       "description": "《动手学大模型Dive into LLMs》系列编程实践教程  ",
       "language": "Jupyter Notebook"
     }
@@ -459,51 +466,53 @@
   "huggingFace": [],
   "googleTrends": [
     {
-      "keyword": "claude",
-      "status": "Trending"
-    },
-    {
-      "keyword": "chatgpt",
-      "status": "Trending"
-    },
-    {
-      "keyword": "openai",
-      "status": "Trending"
-    },
-    {
-      "keyword": "anthropic",
-      "status": "Trending"
-    },
-    {
-      "keyword": "agent",
-      "status": "Trending"
-    },
-    {
-      "keyword": "llm",
-      "status": "Trending"
-    },
-    {
-      "keyword": "ai coding",
-      "status": "Trending"
-    },
-    {
-      "keyword": "cursor",
-      "status": "Trending"
-    },
-    {
-      "keyword": "windsurf",
+      "keyword": "claude ai",
+      "category": "Software",
       "status": "Trending"
     },
     {
       "keyword": "hermes agent",
+      "category": "Software",
       "status": "Trending"
     },
     {
-      "keyword": "claude code",
+      "keyword": "cursor ai",
+      "category": "Software",
       "status": "Trending"
     },
     {
-      "keyword": "managed agents",
+      "keyword": "windsurf ai",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "openai operators",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "anthropic claude",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "ai coding agent",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "llama 4",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "qwen3 model",
+      "category": "Software",
+      "status": "Trending"
+    },
+    {
+      "keyword": "gemma 4",
+      "category": "Software",
       "status": "Trending"
     }
   ],

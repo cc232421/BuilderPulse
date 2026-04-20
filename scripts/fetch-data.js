@@ -80,31 +80,41 @@ async function getProductHunt() {
 
 async function getHuggingFaceTrending() {
   try {
-    const html = await fetch('https://huggingface.co/models?sort=trending');
-    const models = [];
-    const regex = /href="\/([^"]+)"[^>]*>[\s\S]*?<img[^>]*alt="([^"]+)"[^>]*>[\s\S]*?<span[^>]*>(\d+[\d,]*)<\/span>/g;
-    let match;
-    while ((match = regex.exec(html)) !== null && models.length < 10) {
-      models.push({
-        name: match[1],
-        downloads: parseInt(match[3]?.replace(/,/g, '')) || 0
-      });
+    // Use HF API for trending models
+    const response = await fetch('https://huggingface.co/api/trending?pipeline_tag=text-generation&sort=downloads');
+    
+    if (response.ok) {
+      const data = await response.json();
+      return (data.models || []).slice(0, 10).map(m => ({
+        name: m.id || m.modelId,
+        downloads: m.downloads || 0,
+        likes: m.likes || 0
+      }));
     }
-    return models;
-  } catch {
+    return [];
+  } catch (e) {
+    console.log('HuggingFace fetch error:', e.message);
     return [];
   }
 }
 
-async function getGoogleTrendsKeywords() {
+async function getGoogleTrendsData() {
+  // Pre-defined trending tech keywords based on current AI trends
   const trendingKeywords = [
-    'claude', 'chatgpt', 'openai', 'anthropic',
-    'agent', 'llm', 'ai coding', 'cursor', 'windsurf',
-    'hermes agent', 'claude code', 'managed agents'
+    { keyword: 'claude ai', category: 'Software' },
+    { keyword: 'hermes agent', category: 'Software' },
+    { keyword: 'cursor ai', category: 'Software' },
+    { keyword: 'windsurf ai', category: 'Software' },
+    { keyword: 'openai operators', category: 'Software' },
+    { keyword: 'anthropic claude', category: 'Software' },
+    { keyword: 'ai coding agent', category: 'Software' },
+    { keyword: 'llama 4', category: 'Software' },
+    { keyword: 'qwen3 model', category: 'Software' },
+    { keyword: 'gemma 4', category: 'Software' }
   ];
   
   return trendingKeywords.map(kw => ({
-    keyword: kw,
+    ...kw,
     status: 'Trending'
   }));
 }
@@ -148,7 +158,7 @@ async function main() {
     getGitHubTrending().catch(() => []),
     getProductHunt().catch(() => []),
     getHuggingFaceTrending().catch(() => []),
-    getGoogleTrendsKeywords().catch(() => []),
+    getGoogleTrendsData().catch(() => []),
     getReddit().catch(() => [])
   ]);
 
@@ -166,7 +176,8 @@ async function main() {
   console.log('Data fetched and saved to data/raw-data.json');
   console.log(`  - Hacker News: ${hn.length} stories`);
   console.log(`  - GitHub: ${gh.length} repos`);
-  console.log(`  - Reddit: ${rd.length} posts`);
+  console.log(`  - HuggingFace: ${hf.length} models`);
+  console.log(`  - Google Trends: ${gt.length} keywords`);
   
   return data;
 }

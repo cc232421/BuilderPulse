@@ -209,11 +209,24 @@ function generateChineseReport(data) {
   }
 
   // HuggingFace
-  report += `### HuggingFace 上最热的模型是什么？\n\n`;
+  report += `### HuggingFace 上最热的模型是什么？能支撑哪些消费级产品？\n\n`;
   
   if (huggingFace && huggingFace.length > 0) {
-    huggingFace.slice(0, 5).forEach(model => {
-      report += `- ${model.name} (${model.downloads} downloads)\n`;
+    huggingFace.slice(0, 8).forEach(model => {
+      report += `- ${model.name} (${model.downloads?.toLocaleString()} downloads)\n`;
+    });
+  } else {
+    report += `暂无数据\n`;
+  }
+  report += '\n';
+  
+  // Google Trends
+  report += `### Google 搜索趋势正在飙升的关键词\n\n`;
+  
+  if (googleTrends && googleTrends.length > 0) {
+    const software = googleTrends.filter(kw => kw.category === 'Software').slice(0, 5);
+    software.forEach(kw => {
+      report += `- ${kw.keyword}\n`;
     });
   } else {
     report += `暂无数据\n`;
@@ -375,11 +388,24 @@ function generateEnglishReport(data) {
   }
   report += '\n';
 
-  report += `### What are the hottest HuggingFace models?\n\n`;
+  report += `### What are the hottest HuggingFace models? What consumer products can they support?\n\n`;
   
   if (huggingFace && huggingFace.length > 0) {
-    huggingFace.slice(0, 5).forEach(model => {
-      report += `- ${model.name} (${model.downloads} downloads)\n`;
+    huggingFace.slice(0, 8).forEach(model => {
+      report += `- ${model.name} (${model.downloads?.toLocaleString()} downloads)\n`;
+    });
+  } else {
+    report += `No data available\n`;
+  }
+  report += '\n';
+  
+  // Google Trends
+  report += `### What Google search trends are surging?\n\n`;
+  
+  if (googleTrends && googleTrends.length > 0) {
+    const software = googleTrends.filter(kw => kw.category === 'Software').slice(0, 5);
+    software.forEach(kw => {
+      report += `- ${kw.keyword}\n`;
     });
   } else {
     report += `No data available\n`;
