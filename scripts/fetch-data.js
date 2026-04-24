@@ -7,13 +7,15 @@ import { join } from 'path';
 const DATA_DIR = join(process.cwd(), 'data');
 if (!existsSync(DATA_DIR)) mkdirSync(DATA_DIR);
 
-function fetch(url) {
+function fetch(url, timeout = 10000) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
+    const req = https.get(url, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    setTimeout(() => { req.destroy(); reject(new Error(`Request timeout: ${url}`)); }, timeout);
   });
 }
 
@@ -21,16 +23,21 @@ async function getHNStories() {
   const idsRes = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
   const ids = JSON.parse(idsRes).slice(0, 30);
   
-  const stories = await Promise.all(ids.slice(0, 15).map(async (id) => {
-    const item = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+  const results = await Promise.allSettled(ids.slice(0, 15).map(async (id) => {
+    const item = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, 15000);
     return JSON.parse(item);
   }));
   
-  const filtered = stories.filter(s => s && s.type === 'story');
-  if (filtered.length === 0) {
+  const stories = results
+    .filter(r => r.status === 'fulfilled' && r.value && r.value.type === 'story')
+    .map(r => r.value);
+  
+  if (stories.length === 0) {
     console.log('WARNING: HN returned no stories — API may be rate-limiting or unreachable');
+  } else {
+    console.log(`HN: ${stories.length}/15 stories fetched`);
   }
-  return filtered;
+  return stories;
 }
 
 async function getGitHubTrending() {
@@ -42,12 +49,27 @@ async function getGitHubTrending() {
   for (const url of proxies) {
     try {
       const html = await fetch(url);
-      const repos = JSON.parse(html).slice(0, 10).map(r => ({
-        fullName: r.name,
-        stars: r.stars,
-        description: r.description,
-        language: r.language
-      }));
+      const data = JSON.parse(html);
+      
+      if (!Array.isArray(data) || data.length === 0) {
+        console.log(`GitHub proxy ${url} returned unexpected format`);
+        continue;
+      }
+      
+      const repos = data.slice(0, 10).map(r => {
+        const repoUrl = r.repository || '';
+        const parts = repoUrl.split('/');
+        const fullName = parts.length >= 5 ? `${parts[3]}/${parts[4]}` : r.name || 'Unknown';
+        const stars = (r.stars || '0').replace(/,/g, '');
+        
+        return {
+          fullName: fullName,
+          stars: parseInt(stars) || 0,
+          description: r.description || '',
+          language: 'N/A'
+        };
+      });
+      
       if (repos.length > 0) return repos;
     } catch (e) {
       console.log(`GitHub proxy ${url} failed:`, e.message);
