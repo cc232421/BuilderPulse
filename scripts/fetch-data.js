@@ -26,23 +26,36 @@ async function getHNStories() {
     return JSON.parse(item);
   }));
   
-  return stories.filter(s => s && s.type === 'story');
+  const filtered = stories.filter(s => s && s.type === 'story');
+  if (filtered.length === 0) {
+    console.log('WARNING: HN returned no stories — API may be rate-limiting or unreachable');
+  }
+  return filtered;
 }
 
 async function getGitHubTrending() {
-  try {
-    const html = await fetch('https://githubtrending.lessx.xyz/trending?since=weekly');
-    const repos = JSON.parse(html).slice(0, 10).map(r => ({
-      fullName: r.name,
-      stars: r.stars,
-      description: r.description,
-      language: r.language
-    }));
-    return repos;
-  } catch (e) {
-    console.log('GitHub fetch error:', e.message);
-    return [];
+  const proxies = [
+    'https://githubtrending.lessx.xyz/trending?since=weekly',
+    'https://gh-trending-api.vercel.app/repositories?since=weekly'
+  ];
+  
+  for (const url of proxies) {
+    try {
+      const html = await fetch(url);
+      const repos = JSON.parse(html).slice(0, 10).map(r => ({
+        fullName: r.name,
+        stars: r.stars,
+        description: r.description,
+        language: r.language
+      }));
+      if (repos.length > 0) return repos;
+    } catch (e) {
+      console.log(`GitHub proxy ${url} failed:`, e.message);
+    }
   }
+  
+  console.log('All GitHub trending proxies failed');
+  return [];
 }
 
 async function getGoogleTrends(queries) {
