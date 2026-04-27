@@ -23,17 +23,29 @@ async function getHNStories() {
   const idsRes = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
   const ids = JSON.parse(idsRes).slice(0, 30);
   
-  const results = await Promise.allSettled(ids.slice(0, 15).map(async (id) => {
-    const item = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, 15000);
-    return JSON.parse(item);
-  }));
+  // Batch requests in groups of 5 to avoid rate limiting
+  const batches = [];
+  for (let i = 0; i < Math.min(15, ids.length); i += 5) {
+    batches.push(ids.slice(i, i + 5));
+  }
   
-  const stories = results
+  let allResults = [];
+  for (const batch of batches) {
+    const batchResults = await Promise.allSettled(batch.map(async (id) => {
+      const item = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, 15000);
+      return JSON.parse(item);
+    }));
+    allResults = allResults.concat(batchResults);
+  }
+  
+  const stories = allResults
     .filter(r => r.status === 'fulfilled' && r.value && r.value.type === 'story')
     .map(r => r.value);
   
+  const failed = allResults.filter(r => r.status === 'rejected');
   if (stories.length === 0) {
-    console.log('WARNING: HN returned no stories — API may be rate-limiting or unreachable');
+    const firstError = failed[0]?.reason?.message || 'unknown';
+    console.log(`WARNING: HN returned 0/15 stories — first error: ${firstError}`);
   } else {
     console.log(`HN: ${stories.length}/15 stories fetched`);
   }
@@ -47,36 +59,41 @@ async function getGitHubTrending() {
   ];
   
   for (const url of proxies) {
-    try {
-      const html = await fetch(url);
-      const data = JSON.parse(html);
-      
-      if (!Array.isArray(data) || data.length === 0) {
-        console.log(`GitHub proxy ${url} returned unexpected format`);
-        continue;
-      }
-      
-      const repos = data.slice(0, 10).map(r => {
-        const repoUrl = r.repository || '';
-        const parts = repoUrl.split('/');
-        const fullName = parts.length >= 5 ? `${parts[3]}/${parts[4]}` : r.name || 'Unknown';
-        const stars = (r.stars || '0').replace(/,/g, '');
+    // Retry each proxy up to 2 times with delays
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const html = await fetch(url, 15000);
+        const data = JSON.parse(html);
         
-        return {
-          fullName: fullName,
-          stars: parseInt(stars) || 0,
-          description: r.description || '',
-          language: 'N/A'
-        };
-      });
-      
-      if (repos.length > 0) return repos;
-    } catch (e) {
-      console.log(`GitHub proxy ${url} failed:`, e.message);
+        if (!Array.isArray(data) || data.length === 0) {
+          console.log(`GitHub proxy ${url} returned unexpected format (attempt ${attempt + 1})`);
+          await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+          continue;
+        }
+        
+        const repos = data.slice(0, 10).map(r => {
+          const repoUrl = r.repository || '';
+          const parts = repoUrl.split('/');
+          const fullName = parts.length >= 5 ? `${parts[3]}/${parts[4]}` : r.name || 'Unknown';
+          const stars = (r.stars || '0').replace(/,/g, '');
+          
+          return {
+            fullName: fullName,
+            stars: parseInt(stars) || 0,
+            description: r.description || '',
+            language: 'N/A'
+          };
+        });
+        
+        if (repos.length > 0) return repos;
+      } catch (e) {
+        console.log(`GitHub proxy ${url} failed (attempt ${attempt + 1}):`, e.message);
+        await new Promise(r => setTimeout(r, 2000 * (attempt + 1)));
+      }
     }
   }
   
-  console.log('All GitHub trending proxies failed');
+  console.log('All GitHub trending proxies failed after retries');
   return [];
 }
 
@@ -114,23 +131,33 @@ async function getProductHunt() {
 }
 
 async function getHuggingFaceTrending() {
-  try {
-    // Use HF API for trending models
-    const response = await fetch('https://huggingface.co/api/trending?pipeline_tag=text-generation&sort=downloads');
-    
-    if (response.ok) {
-      const data = await response.json();
+  // Retry up to 2 times with increasing timeout since HF API is slow
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const response = await fetch(
+        'https://huggingface.co/api/trending?pipeline_tag=text-generation&sort=downloads',
+        20000 + (attempt * 10000)
+      );
+      
+      const text = await new Promise((resolve, reject) => {
+        let data = '';
+        response.on('data', chunk => data += chunk);
+        response.on('end', () => resolve(data));
+        response.on('error', reject);
+      });
+      
+      const data = JSON.parse(text);
       return (data.models || []).slice(0, 10).map(m => ({
         name: m.id || m.modelId,
         downloads: m.downloads || 0,
         likes: m.likes || 0
       }));
+    } catch (e) {
+      console.log(`HuggingFace attempt ${attempt + 1} failed:`, e.message);
+      if (attempt < 1) await new Promise(r => setTimeout(r, 5000));
     }
-    return [];
-  } catch (e) {
-    console.log('HuggingFace fetch error:', e.message);
-    return [];
   }
+  return [];
 }
 
 async function getGoogleTrendsData() {
