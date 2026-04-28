@@ -1,0 +1,14 @@
+{
+  "name": "builderpulse",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI Developer Newsletter Generator",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "generate": "node scripts/generate-report.js",
+    "daily": "bash generate-daily-report.sh"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
