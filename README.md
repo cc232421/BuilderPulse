@@ -69,6 +69,20 @@ Daily analysis of 300+ signals from Hacker News, GitHub, Product Hunt, HuggingFa
 
 ---
 
+## 示例说明
+
+以下是 **2026年4月17日系统生成的真实报告**，反映当前系统的实际输出质量：
+
+- [English](en/2026/2026-04-17.md) - 英文报告
+- [中文版](zh/2026/2026-04-17.md) - 中文报告
+
+README 中"Last 7 days — what you could have built"部分的描述（如 €54K API key 账单、$400 社交媒体工具）是**人工撰写的示例**，用于说明报告的潜在价值，不是系统直接生成的。系统生成的报告内容可能与这些示例有所不同。
+
+当前系统状态：
+- 3/6 数据源正常运行（Hacker News、GitHub Trending、Google Trends）
+- 3/6 数据源失败（Product Hunt、HuggingFace、Reddit）
+- 翻译使用规则表（regex），非 LLM
+
 ## About
 
 Sources: Hacker News · GitHub Trending · Product Hunt · HuggingFace · Google Trends · Reddit
