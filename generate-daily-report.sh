@@ -14,7 +14,7 @@ fi
 
 # Step 1: Fetch data with error handling
 echo "Step 1/3: Fetching data from multiple sources..."
-if ! node scripts/fetch-data.js; then
+if ! node --env-file=.env scripts/fetch-data.js; then
   echo "WARNING: Data fetching encountered errors (some sources may be unavailable)"
 fi
 

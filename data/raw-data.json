@@ -1,9 +1,25 @@
 {
-  "generatedAt": "2026-04-30T10:54:31.770Z",
+  "generatedAt": "2026-04-30T10:57:47.109Z",
   "hackerNews": [
     {
+      "by": "steveharing1",
+      "descendants": 5,
+      "id": 47960507,
+      "kids": [
+        47960682,
+        47960689,
+        47960659,
+        47960646
+      ],
+      "score": 19,
+      "time": 1777545077,
+      "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
+      "type": "story",
+      "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/"
+    },
+    {
       "by": "ilreb",
-      "descendants": 367,
+      "descendants": 370,
       "id": 47957688,
       "kids": [
         47960583,
@@ -21,15 +37,15 @@
         47959347,
         47958002,
         47957852,
-        47960467,
         47958701,
         47958845,
+        47960467,
         47958211,
         47958719,
         47957986,
         47960273,
-        47960019,
         47958598,
+        47960019,
         47957802,
         47959830,
         47959852,
@@ -47,8 +63,8 @@
         47959670,
         47959037,
         47957830,
-        47958877,
         47957952,
+        47958877,
         47957835,
         47958937,
         47957960,
@@ -83,25 +99,11 @@
         47958951,
         47957895
       ],
-      "score": 676,
+      "score": 680,
       "time": 1777519264,
       "title": "Where the goblins came from",
       "type": "story",
       "url": "https://openai.com/index/where-the-goblins-came-from/"
-    },
-    {
-      "by": "steveharing1",
-      "descendants": 2,
-      "id": 47960507,
-      "kids": [
-        47960659,
-        47960646
-      ],
-      "score": 12,
-      "time": 1777545077,
-      "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
-      "type": "story",
-      "url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/"
     },
     {
       "by": "embedding-shape",
@@ -120,7 +122,7 @@
         47959923,
         47959605
       ],
-      "score": 272,
+      "score": 276,
       "time": 1777325707,
       "title": "Noctua releases official 3D CAD models for its cooling fans",
       "type": "story",
@@ -182,17 +184,17 @@
         47952980,
         47952105,
         47957654,
-        47959850,
         47958269,
+        47959850,
         47951693,
         47949511,
-        47958339,
         47949180,
+        47958339,
         47951876,
         47955878,
         47957280,
-        47959607,
         47956267,
+        47959607,
         47954056,
         47958511,
         47950023,
@@ -230,8 +232,8 @@
         47949635,
         47953050,
         47950529,
-        47956683,
         47949207,
+        47956683,
         47951015,
         47950773,
         47949390,
@@ -248,9 +250,9 @@
         47949868,
         47950674,
         47951259,
-        47960287,
         47951255,
         47950617,
+        47960287,
         47955450,
         47949721,
         47949501,
@@ -294,8 +296,8 @@
         47950211,
         47950168,
         47950068,
-        47959279,
         47955897,
+        47959279,
         47951781,
         47954442,
         47953734,
@@ -307,7 +309,7 @@
         47952075,
         47950016
       ],
-      "score": 1878,
+      "score": 1879,
       "time": 1777473259,
       "title": "Zed 1.0",
       "type": "story",
@@ -315,7 +317,7 @@
     },
     {
       "by": "lumpa",
-      "descendants": 144,
+      "descendants": 146,
       "id": 47957294,
       "kids": [
         47959434,
@@ -356,7 +358,7 @@
     },
     {
       "by": "unsnap_biceps",
-      "descendants": 367,
+      "descendants": 369,
       "id": 47952181,
       "kids": [
         47956312,
@@ -365,8 +367,8 @@
         47954159,
         47958980,
         47954710,
-        47960336,
         47955580,
+        47960336,
         47955781,
         47952880,
         47952597,
@@ -411,8 +413,8 @@
         47958422,
         47956138,
         47953517,
-        47960212,
         47952803,
+        47960212,
         47955917,
         47952733,
         47952748,
@@ -427,7 +429,7 @@
         47955366,
         47954255
       ],
-      "score": 1016,
+      "score": 1018,
       "time": 1777486433,
       "title": "Copy Fail",
       "type": "story",
@@ -435,7 +437,7 @@
     },
     {
       "by": "rdl",
-      "descendants": 43,
+      "descendants": 44,
       "id": 47957101,
       "kids": [
         47957644,
@@ -458,13 +460,13 @@
         47957747,
         47957303,
         47959841,
-        47958984,
         47957314,
+        47958984,
         47957274,
         47957666,
         47959061
       ],
-      "score": 241,
+      "score": 243,
       "time": 1777513496,
       "title": "Craig Venter has died",
       "type": "story",
@@ -472,14 +474,14 @@
     },
     {
       "by": "dwrodri",
-      "descendants": 3,
+      "descendants": 4,
       "id": 47923429,
       "kids": [
         47960627,
         47960637,
         47960335
       ],
-      "score": 29,
+      "score": 30,
       "time": 1777306114,
       "title": "\"Parse, don't validate\" through the years with C++",
       "type": "story",
@@ -487,7 +489,7 @@
     },
     {
       "by": "jaffathecake",
-      "descendants": 43,
+      "descendants": 45,
       "id": 47959463,
       "kids": [
         47960385,
@@ -500,7 +502,7 @@
         47960080,
         47960650
       ],
-      "score": 96,
+      "score": 101,
       "time": 1777535035,
       "title": "Mozilla's Opposition to Chrome's Prompt API",
       "type": "story",
@@ -514,9 +516,9 @@
         47951730,
         47955594,
         47957881,
-        47960599,
         47956240,
         47952275,
+        47960599,
         47953599,
         47956234,
         47957836,
@@ -556,8 +558,8 @@
         47957691,
         47959267,
         47955486,
-        47957248,
         47953116,
+        47957248,
         47955134,
         47953687,
         47952650,
@@ -587,8 +589,8 @@
         47952535,
         47957372,
         47955612,
-        47957723,
         47955563,
+        47957723,
         47953177,
         47957637,
         47956818,
@@ -605,11 +607,42 @@
         47953903,
         47953222
       ],
-      "score": 969,
+      "score": 972,
       "time": 1777477183,
       "title": "Cursor Camp",
       "type": "story",
       "url": "https://neal.fun/cursor-camp/"
+    },
+    {
+      "by": "reconnecting",
+      "descendants": 106,
+      "id": 47957627,
+      "kids": [
+        47958165,
+        47959635,
+        47958263,
+        47958437,
+        47958602,
+        47958356,
+        47958004,
+        47957922,
+        47958564,
+        47958112,
+        47959972,
+        47959462,
+        47959692,
+        47958142,
+        47958118,
+        47958071,
+        47958542,
+        47958768,
+        47958455
+      ],
+      "score": 142,
+      "time": 1777518711,
+      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "type": "story",
+      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code"
     },
     {
       "by": "the-mitr",
@@ -629,42 +662,30 @@
         47958567,
         47959931
       ],
-      "score": 107,
+      "score": 108,
       "time": 1777519481,
       "title": "Biology is a Burrito: A text- and visual-based journey through a living cell",
       "type": "story",
       "url": "https://burrito.bio/essays/biology-is-a-burrito"
     },
     {
-      "by": "reconnecting",
-      "descendants": 106,
-      "id": 47957627,
+      "by": "colonCapitalDee",
+      "descendants": 10,
+      "id": 47929354,
       "kids": [
-        47958165,
-        47958263,
-        47959635,
-        47958437,
-        47958602,
-        47958356,
-        47958004,
-        47957922,
-        47958564,
-        47958112,
-        47959972,
-        47959462,
-        47959692,
-        47958142,
-        47958118,
-        47958071,
-        47958542,
-        47958768,
-        47958455
+        47960417,
+        47960458,
+        47960438,
+        47960491,
+        47929659,
+        47930349,
+        47929913
       ],
-      "score": 140,
-      "time": 1777518711,
-      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+      "score": 17,
+      "time": 1777338683,
+      "title": "Why isn't AMD's MI300X competitive?",
       "type": "story",
-      "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code"
+      "url": "https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training"
     },
     {
       "by": "CGMthrowaway",
@@ -686,27 +707,8 @@
       "url": "https://www.amusingplanet.com/2022/08/london-to-calcutta-by-bus.html"
     },
     {
-      "by": "colonCapitalDee",
-      "descendants": 10,
-      "id": 47929354,
-      "kids": [
-        47960417,
-        47960438,
-        47960458,
-        47960491,
-        47929659,
-        47930349,
-        47929913
-      ],
-      "score": 15,
-      "time": 1777338683,
-      "title": "Why isn't AMD's MI300X competitive?",
-      "type": "story",
-      "url": "https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training"
-    },
-    {
       "by": "agwa",
-      "descendants": 81,
+      "descendants": 84,
       "id": 47950510,
       "kids": [
         47952605,
@@ -746,13 +748,13 @@
   "githubTrending": [
     {
       "fullName": "Alishahryar1/free-claude-code",
-      "stars": 18838,
+      "stars": 18839,
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "mattpocock/skills",
-      "stars": 47272,
+      "stars": 47279,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
@@ -764,7 +766,7 @@
     },
     {
       "fullName": "Z4nzu/hackingtool",
-      "stars": 68981,
+      "stars": 68983,
       "description": "ALL IN ONE Hacking Tool For Hackers  ",
       "language": "N/A"
     },
@@ -776,7 +778,7 @@
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 101595,
+      "stars": 101600,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
@@ -800,12 +802,73 @@
     },
     {
       "fullName": "Fincept-Corporation/FinceptTerminal",
-      "stars": 18043,
+      "stars": 18044,
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.  ",
       "language": "N/A"
     }
   ],
-  "productHunt": [],
+  "productHunt": [
+    {
+      "name": "Brila",
+      "slug": "brila-2",
+      "votes": 1289,
+      "description": "Website generators give you a template with made-up copy. You rewrite it for hours – still sounds generic. Brila does content first. It reads your Google Maps reviews, finds why customers actually choose you using Jobs to Be Done, and builds a one-page site from real patterns, real wording, real photos. When a business has enough reviews, the results often surprise even the owners. Not a single prompt – a serious AI system behind every website. Free plan gives you a fully generated site."
+    },
+    {
+      "name": "Fathom 3.0",
+      "slug": "fathom-3-0",
+      "votes": 750,
+      "description": "The Fathom you know, leveled up. The best AI notetaking, now with bot-free capture, account-wide AI search & insights, Claude + ChatGPT integrations, live summaries & in-meeting scratchpads, and a redesigned desktop experience. And we’re not stopping there. It’s the most flexible meeting AI ever built."
+    },
+    {
+      "name": "ProdShort",
+      "slug": "prodshort",
+      "votes": 714,
+      "description": "Founders fail at content because it's time consuming and AI just still feels fake. Prodshort fixes that. We don’t generate content. We capture it. Everything you say in meetings is already valuable. We cut it, refine it, and turn it into ready-to-post shorts, Linkedin, Twitter... Automatically. No scripts. No fake voice. No overthinking. Just you, turned into content."
+    },
+    {
+      "name": "Jupid",
+      "slug": "jupid",
+      "votes": 667,
+      "description": "No matter how powerful LLMs get, they are objectively bad at financial transactions. Context loss, inconsistent categories, no memory between sessions. Jupid fixes the data layer. Connect your bank — it learns your business and every vendor relationship once, then remembers forever. Transactions mapped to IRS Schedule C categories (~96% accuracy). Missed deductions found: $1,249/year average. File your Schedule C in 5 minutes. Works with Claude Code. Free trial + 50% off first 3 months."
+    },
+    {
+      "name": "Velo",
+      "slug": "velo-10",
+      "votes": 666,
+      "description": "Velo turns your raw screen recordings into watch-worthy, ready-to-share videos with AI."
+    },
+    {
+      "name": "Plurai",
+      "slug": "plurai",
+      "votes": 638,
+      "description": "Vibe training for AI agent reliability. Describe what your agent should and should not do — Plurai generates training data, validates it, and deploys a custom model in minutes. It feels like vibe coding, but for evaluation and guardrails. No labeled data. No annotation pipeline. No prompt engineering. Under the hood, small language models deliver sub 100ms latency, 8x lower cost than GPT as judge, and over 43% fewer failures. Always on, not sampled. Built on published research (BARRED)."
+    },
+    {
+      "name": "Dune",
+      "slug": "dune-5",
+      "votes": 613,
+      "description": "Dune is a Context-aware Keypad for Mac that sits next to your keyboard and changes what its three keys do in real time based on the app running in the foreground. Built for developers who live in GitHub, VS Code, Claude, Openclaw, and for anyone running AI agents or in back to back meetings on Zoom, Teams, and Google Meet."
+    },
+    {
+      "name": "NovaVoice",
+      "slug": "novavoice",
+      "votes": 596,
+      "description": "NovaVoice is Your Voice OS that lets you work at the speed of thought. Typing is slow. Switching apps breaks focus. Formatting wastes time. Speak at 200+ wpm, get context-aware text. Hit hotkey, ask anything without googling. Execute actions without switching apps (just with voice commands). NovaVoice remembers contacts, addresses, links. NovaVoice writes, answers, and acts across your desktop."
+    },
+    {
+      "name": "Clera",
+      "slug": "clera",
+      "votes": 593,
+      "description": "Meet Clera: your AI talent agent for finding roles you actually want. Clera gets to know what you’re looking for over iMessage and WhatsApp. It surfaces roles you’d actually be excited by and makes direct intros to relevant companies. You hear about good opportunities without spending hours searching and applying."
+    },
+    {
+      "name": "Figma for Agents",
+      "slug": "figma-for-agents",
+      "votes": 590,
+      "description": "AI-generated designs break brand standards because agents can't see your design system. Figma's use_figma MCP tool changes that. For product teams bridging design and code with AI agents."
+    }
+  ],
   "huggingFace": [
     {
       "name": "sentence-transformers/all-MiniLM-L6-v2",
