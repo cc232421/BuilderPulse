@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T01:27:37.979Z",
+  "generatedAt": "2026-05-01T01:35:48.145Z",
   "hackerNews": [
     {
       "by": "Cider9986",
@@ -13,8 +13,8 @@
         47968005,
         47969217,
         47968398,
-        47970313,
         47969952,
+        47970313,
         47968561,
         47970034,
         47968672,
@@ -25,8 +25,8 @@
         47968368,
         47968896,
         47969749,
-        47969753,
         47968230,
+        47969753,
         47969131,
         47968788,
         47968040,
@@ -46,7 +46,7 @@
         47968289,
         47968273
       ],
-      "score": 476,
+      "score": 481,
       "time": 1777580842,
       "title": "Rivian allows you to disable all internet connectivity",
       "type": "story",
@@ -54,7 +54,7 @@
     },
     {
       "by": "the-mitr",
-      "descendants": 126,
+      "descendants": 127,
       "id": 47965060,
       "kids": [
         47969934,
@@ -82,7 +82,7 @@
         47966700,
         47967380
       ],
-      "score": 423,
+      "score": 424,
       "time": 1777567260,
       "title": "How Mark Klein told the EFF about Room 641A [book excerpt]",
       "type": "story",
@@ -90,37 +90,40 @@
     },
     {
       "by": "ilamont",
-      "descendants": 72,
+      "descendants": 80,
       "id": 47951295,
       "kids": [
         47970127,
-        47970345,
+        47970391,
         47969329,
         47968969,
         47969939,
         47969571,
-        47970219,
+        47970008,
         47968767,
+        47970219,
         47969517,
+        47970345,
         47969192,
         47969698,
         47969163,
         47968926,
         47969017,
         47969194,
+        47968865,
         47970037,
         47969708,
         47969919,
-        47968865,
         47969760,
         47969601,
+        47970421,
         47969024,
-        47970008,
+        47970398,
         47969201,
         47969207,
         47969638
       ],
-      "score": 138,
+      "score": 145,
       "time": 1777482543,
       "title": "Opus 4.7 knows the real Kelsey",
       "type": "story",
@@ -139,15 +142,15 @@
         47966100,
         47967755,
         47966903,
-        47970334,
         47966345,
         47966482,
         47968072,
+        47970334,
         47967372,
         47967878,
         47968739
       ],
-      "score": 364,
+      "score": 366,
       "text": "Recent: <i>Copy Fail</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47952181\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47952181</a> - April 2026 (466 comments)",
       "time": 1777567427,
       "title": "CopyFail was not disclosed to distro developers?",
@@ -159,17 +162,17 @@
       "descendants": 108,
       "id": 47964617,
       "kids": [
-        47970362,
         47966396,
         47966126,
+        47970362,
         47965646,
         47966862,
         47967274,
         47967352,
+        47966508,
         47969993,
         47965608,
         47966117,
-        47966508,
         47966043,
         47966521,
         47965809,
@@ -191,7 +194,7 @@
         47965649,
         47968876
       ],
-      "score": 321,
+      "score": 322,
       "time": 1777565366,
       "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
       "type": "story",
@@ -220,7 +223,7 @@
         47967077,
         47966342
       ],
-      "score": 208,
+      "score": 209,
       "time": 1777569261,
       "title": "I built a Game Boy emulator in F#",
       "type": "story",
@@ -228,7 +231,7 @@
     },
     {
       "by": "elmean",
-      "descendants": 531,
+      "descendants": 532,
       "id": 47963204,
       "kids": [
         47964400,
@@ -238,22 +241,22 @@
         47964585,
         47967987,
         47964376,
+        47969336,
         47964528,
         47963724,
-        47969336,
         47963930,
-        47966577,
-        47963587,
-        47964586,
         47970015,
+        47966577,
+        47964586,
+        47963587,
         47963845,
         47969333,
         47967735,
         47963699,
         47964890,
-        47970124,
         47964982,
         47968834,
+        47970124,
         47966177,
         47967486,
         47963713,
@@ -261,8 +264,8 @@
         47970168,
         47965112,
         47963553,
-        47969533,
         47964480,
+        47969533,
         47969695,
         47965735,
         47965006,
@@ -279,8 +282,8 @@
         47966523,
         47965145,
         47967395,
-        47969544,
         47966714,
+        47969544,
         47966712,
         47964611,
         47966298,
@@ -325,7 +328,7 @@
         47964564,
         47965490
       ],
-      "score": 945,
+      "score": 951,
       "text": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;theo&#x2F;status&#x2F;2049645973350363168\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;theo&#x2F;status&#x2F;2049645973350363168</a>",
       "time": 1777559818,
       "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\"",
@@ -333,15 +336,43 @@
       "url": "https://twitter.com/theo/status/2049645973350363168"
     },
     {
+      "by": "zikani_03",
+      "descendants": 7,
+      "id": 47969288,
+      "kids": [
+        47970384,
+        47970366,
+        47970409,
+        47970260,
+        47970357,
+        47970252
+      ],
+      "score": 25,
+      "time": 1777589331,
+      "title": "The Internet Is Falling Down- CPanel/WHM Authentication Bypass CVE-2026-41940",
+      "type": "story",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/"
+    },
+    {
+      "by": "herbertl",
+      "descendants": 0,
+      "id": 47942863,
+      "score": 8,
+      "time": 1777423815,
+      "title": "Maladaptive Frugality",
+      "type": "story",
+      "url": "https://herbertlui.net/maladaptive-frugality/"
+    },
+    {
       "by": "chmaynard",
-      "descendants": 96,
+      "descendants": 97,
       "id": 47962548,
       "kids": [
         47965783,
         47966317,
         47969385,
-        47970128,
         47963774,
+        47970128,
         47964126,
         47965643,
         47967566,
@@ -358,7 +389,7 @@
         47964230,
         47963819
       ],
-      "score": 321,
+      "score": 324,
       "time": 1777557260,
       "title": "How an oil refinery works",
       "type": "story",
@@ -366,13 +397,13 @@
     },
     {
       "by": "bartoindahouse",
-      "descendants": 15,
+      "descendants": 17,
       "id": 47967508,
       "kids": [
         47968433,
         47968874,
-        47970066,
         47969624,
+        47970066,
         47968826,
         47968968,
         47967509,
@@ -380,7 +411,7 @@
         47969710,
         47969382
       ],
-      "score": 91,
+      "score": 95,
       "time": 1777579355,
       "title": "The upsell game – Vercel upselling tactics revealed",
       "type": "story",
@@ -393,8 +424,8 @@
       "kids": [
         47970337,
         47970350,
-        47970301,
         47968601,
+        47970301,
         47969726,
         47968054,
         47967805,
@@ -405,7 +436,7 @@
         47969121,
         47969577
       ],
-      "score": 113,
+      "score": 116,
       "text": "This is the story of building <a href=\"https:&#x2F;&#x2F;towers.world\" rel=\"nofollow\">https:&#x2F;&#x2F;towers.world</a>, a ~perfect, tick-for-tick reproduction of 1993 game SimTower.<p>I spent weeks reverse-engineering the original EXE and writing up a detailed spec of how the simulation actually works under the hood — population flow, elevator AI, the whole star-rating system. The specs are all on GitHub if you want to read them: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;phulin&#x2F;tower-together&#x2F;tree&#x2F;main&#x2F;specs\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;phulin&#x2F;tower-together&#x2F;tree&#x2F;main&#x2F;specs</a><p>It&#x27;s also collaborative. Multiple players can connect to the same tower, the simulation keeps running as long as anyone&#x27;s connected, and build actions sync across clients in real time.<p>Because I rebuilt the UI, I could add features like shift-click to build grids of rooms - instead of painstakingly clicking to build rows of offices and hotels, shift-click allows a 10-floor grid to be built all at once.<p>The game runs on Cloudflare Durable Objects, one of my favorite web primitives.<p>Everything is open source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;phulin&#x2F;tower-together\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;phulin&#x2F;tower-together</a>",
       "time": 1777398098,
       "title": "Reverse Engineering SimTower",
@@ -413,8 +444,22 @@
       "url": "https://phulin.me/blog/simtower"
     },
     {
+      "by": "wglb",
+      "descendants": 4,
+      "id": 47968982,
+      "kids": [
+        47969862,
+        47968984
+      ],
+      "score": 36,
+      "time": 1777587537,
+      "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
+      "type": "story",
+      "url": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html"
+    },
+    {
       "by": "mpweiher",
-      "descendants": 690,
+      "descendants": 691,
       "id": 47961319,
       "kids": [
         47967317,
@@ -462,63 +507,11 @@
         47961832,
         47965473
       ],
-      "score": 747,
+      "score": 751,
       "time": 1777551434,
       "title": "Belgium stops decommissioning nuclear power plants",
       "type": "story",
       "url": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/"
-    },
-    {
-      "by": "wglb",
-      "descendants": 4,
-      "id": 47968982,
-      "kids": [
-        47969862,
-        47968984
-      ],
-      "score": 34,
-      "time": 1777587537,
-      "title": "Snowball Earth may hide a far stranger climate cycle than anyone expected",
-      "type": "story",
-      "url": "https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html"
-    },
-    {
-      "by": "armadsen",
-      "descendants": 31,
-      "id": 47937033,
-      "kids": [
-        47937347,
-        47970145,
-        47969866,
-        47970316,
-        47970099,
-        47970039,
-        47968909,
-        47969112,
-        47968513,
-        47968800
-      ],
-      "score": 72,
-      "time": 1777394952,
-      "title": "New mechanical panoramic film camera from Jeff Bridges",
-      "type": "story",
-      "url": "https://wideluxx.com"
-    },
-    {
-      "by": "zikani_03",
-      "descendants": 4,
-      "id": 47969288,
-      "kids": [
-        47970366,
-        47970357,
-        47970260,
-        47970252
-      ],
-      "score": 20,
-      "time": 1777589331,
-      "title": "The Internet Is Falling Down- CPanel/WHM Authentication Bypass CVE-2026-41940",
-      "type": "story",
-      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/"
     },
     {
       "by": "vok",
@@ -543,16 +536,16 @@
         47965455,
         47963270,
         47964092,
-        47969362,
         47967788,
+        47969362,
         47963971,
+        47965918,
         47967628,
         47968205,
-        47965918,
+        47969707,
         47964878,
         47964834,
         47967315,
-        47969707,
         47966170,
         47965925,
         47965727,
@@ -562,7 +555,7 @@
         47963414,
         47963609
       ],
-      "score": 253,
+      "score": 254,
       "time": 1777312332,
       "title": "You can beat the binary search",
       "type": "story",
@@ -572,25 +565,25 @@
   "githubTrending": [
     {
       "fullName": "Alishahryar1/free-claude-code",
-      "stars": 19199,
+      "stars": 19201,
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "mattpocock/skills",
-      "stars": 49541,
+      "stars": 49558,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
     {
       "fullName": "huggingface/ml-intern",
-      "stars": 7704,
+      "stars": 7706,
       "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models  ",
       "language": "N/A"
     },
     {
       "fullName": "Z4nzu/hackingtool",
-      "stars": 69318,
+      "stars": 69322,
       "description": "ALL IN ONE Hacking Tool For Hackers  ",
       "language": "N/A"
     },
@@ -602,13 +595,13 @@
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 102644,
+      "stars": 102659,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
     {
       "fullName": "AIDC-AI/Pixelle-Video",
-      "stars": 8434,
+      "stars": 8435,
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine  ",
       "language": "N/A"
     },
@@ -620,13 +613,13 @@
     },
     {
       "fullName": "Anil-matcha/Open-Generative-AI",
-      "stars": 10425,
-      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). N o content filters. Self- hosted, MIT licensed.  ",
+      "stars": 10428,
+      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjou rney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.  ",
       "language": "N/A"
     },
     {
       "fullName": "Fincept-Corporation/FinceptTerminal",
-      "stars": 18326,
+      "stars": 18328,
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.  ",
       "language": "N/A"
     }
@@ -821,28 +814,28 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2793,
+      "score": 2794,
       "numComments": 321,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Ghostty Is Leaving GitHub",
-      "score": 1160,
+      "score": 1163,
       "numComments": 314,
       "url": "https://reddit.com/r/programming/comments/1sye8fc/ghostty_is_leaving_github/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 648,
+      "score": 650,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "SideProject",
       "title": "Can't believe I spent a 100 hours on building this...was it worth it?",
-      "score": 486,
+      "score": 489,
       "numComments": 237,
       "url": "https://reddit.com/r/SideProject/comments/1sz7jzx/cant_believe_i_spent_a_100_hours_on_building/"
     },
@@ -856,35 +849,35 @@
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 265,
+      "score": 261,
       "numComments": 102,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "SaaS",
       "title": "New Rule against Self-Promo",
-      "score": 176,
+      "score": 174,
       "numComments": 93,
       "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
       "title": "FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
-      "score": 172,
+      "score": 174,
       "numComments": 13,
       "url": "https://reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/"
     },
     {
       "subreddit": "programming",
       "title": "Bugs Rust Won't Catch",
-      "score": 149,
+      "score": 150,
       "numComments": 47,
       "url": "https://reddit.com/r/programming/comments/1syrgku/bugs_rust_wont_catch/"
     },
     {
       "subreddit": "programming",
       "title": "Someone compromised SAP's npm packages and used the CI pipeline against itself",
-      "score": 141,
+      "score": 138,
       "numComments": 16,
       "url": "https://reddit.com/r/programming/comments/1sz094x/someone_compromised_saps_npm_packages_and_used/"
     }
