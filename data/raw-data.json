@@ -1,103 +1,89 @@
 {
-  "generatedAt": "2026-05-01T01:49:52.936Z",
+  "generatedAt": "2026-05-02T01:47:07.686Z",
   "hackerNews": [],
   "githubTrending": [
     {
-      "fullName": "Alishahryar1/free-claude-code",
-      "stars": 19202,
-      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
-      "language": "N/A"
-    },
-    {
       "fullName": "mattpocock/skills",
-      "stars": 49587,
+      "stars": 52618,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
     {
-      "fullName": "huggingface/ml-intern",
-      "stars": 7708,
-      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models  ",
-      "language": "N/A"
-    },
-    {
-      "fullName": "Z4nzu/hackingtool",
-      "stars": 69326,
-      "description": "ALL IN ONE Hacking Tool For Hackers  ",
+      "fullName": "Alishahryar1/free-claude-code",
+      "stars": 19717,
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "CJackHwang/ds2api",
-      "stars": 2944,
-      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.  ",
+      "stars": 3072,
+      "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.  ",
+      "language": "N/A"
+    },
+    {
+      "fullName": "Z4nzu/hackingtool",
+      "stars": 69791,
+      "description": "ALL IN ONE Hacking Tool For Hackers  ",
       "language": "N/A"
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 102693,
+      "stars": 104762,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
     {
+      "fullName": "huggingface/ml-intern",
+      "stars": 7909,
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models  ",
+      "language": "N/A"
+    },
+    {
+      "fullName": "TauricResearch/TradingAgents",
+      "stars": 59942,
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
+      "language": "N/A"
+    },
+    {
       "fullName": "AIDC-AI/Pixelle-Video",
-      "stars": 8442,
+      "stars": 8682,
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine  ",
       "language": "N/A"
     },
     {
-      "fullName": "trycua/cua",
-      "stars": 15408,
-      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).  ",
+      "fullName": "abhigyanpatwari/GitNexus",
+      "stars": 34090,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration  ",
       "language": "N/A"
     },
     {
-      "fullName": "Anil-matcha/Open-Generative-AI",
-      "stars": 10430,
-      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No cont ent filters. Self-hosted , MIT licensed.  ",
-      "language": "N/A"
-    },
-    {
-      "fullName": "Fincept-Corporation/FinceptTerminal",
-      "stars": 18331,
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.  ",
+      "fullName": "mksglu/context-mode",
+      "stars": 11764,
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms  ",
       "language": "N/A"
     }
   ],
   "devTo": [
     {
-      "title": "15 Essential Sections Every README Needs: Give Your Project What It Deserves",
-      "url": "https://dev.to/georgekobaidze/15-essential-sections-every-readme-needs-give-your-project-what-it-deserves-fie",
-      "reactions": 134,
-      "comments": 74,
-      "author": "Giorgi Kobaidze"
-    },
-    {
       "title": "Announcing the Winners of the DEV Weekend Challenge: Earth Day Edition 🌍",
       "url": "https://dev.to/devteam/announcing-the-winners-of-the-dev-weekend-challenge-earth-day-edition-1n4",
-      "reactions": 62,
-      "comments": 11,
+      "reactions": 83,
+      "comments": 35,
       "author": "Jess Lee"
     },
     {
-      "title": "What was your win this week!?",
-      "url": "https://dev.to/devteam/what-was-your-win-this-week-8ep",
-      "reactions": 58,
-      "comments": 114,
-      "author": "Jess Lee"
+      "title": "15 Essential Sections Every README Needs: Give Your Project What It Deserves",
+      "url": "https://dev.to/georgekobaidze/15-essential-sections-every-readme-needs-give-your-project-what-it-deserves-fie",
+      "reactions": 153,
+      "comments": 80,
+      "author": "Giorgi Kobaidze"
     },
     {
       "title": "Is Software Development Just a Side Quest? A Jira Story",
       "url": "https://dev.to/sylwia-lask/is-software-development-just-a-side-quest-a-jira-story-4ng3",
-      "reactions": 63,
-      "comments": 46,
+      "reactions": 86,
+      "comments": 58,
       "author": "Sylwia Laskowska"
-    },
-    {
-      "title": "I Used to Love Coding. Now I Just Prompt.",
-      "url": "https://dev.to/harsh2644/i-used-to-love-coding-now-i-just-prompt-550l",
-      "reactions": 114,
-      "comments": 77,
-      "author": "Harsh "
     },
     {
       "title": "Fine-Tuning Gemma 4 with Cloud Run Jobs: Serverless GPUs (NVIDIA RTX 6000 Pro) for pet breed classification 🐈🐕",
@@ -109,9 +95,16 @@
     {
       "title": "How I used Gemini CLI to orchestrate a complex RAG migration",
       "url": "https://dev.to/googleai/how-i-used-gemini-cli-to-orchestrate-a-complex-rag-migration-43ga",
-      "reactions": 42,
+      "reactions": 45,
       "comments": 2,
       "author": "Remigiusz Samborski"
+    },
+    {
+      "title": "🗓️ Monthly Dev Report: April 2026",
+      "url": "https://dev.to/francistrdev/monthly-dev-report-april-2026-nak",
+      "reactions": 55,
+      "comments": 14,
+      "author": "FrancisTRᴅᴇᴠ (っ◔◡◔)っ"
     },
     {
       "title": "Introducing Excaliclaw: A Skill for OpenClaw to Generate Excalidraw Diagrams",
@@ -121,80 +114,87 @@
       "author": "Nick Taylor"
     },
     {
+      "title": "Are We Using AI at the Wrong Scale?",
+      "url": "https://dev.to/kernelpryanic/are-we-using-ai-at-the-wrong-scale-2klo",
+      "reactions": 62,
+      "comments": 17,
+      "author": "Kernel Pryanic"
+    },
+    {
       "title": "What It Actually Feels Like to Build Something You're Proud Of",
       "url": "https://dev.to/_boweii/what-it-actually-feels-like-to-build-something-youre-proud-of-35mi",
-      "reactions": 34,
+      "reactions": 36,
       "comments": 21,
       "author": "Tombri Bowei"
     },
     {
-      "title": "🗓️ Monthly Dev Report: April 2026",
-      "url": "https://dev.to/francistrdev/monthly-dev-report-april-2026-nak",
-      "reactions": 50,
-      "comments": 14,
-      "author": "FrancisTRᴅᴇᴠ (っ◔◡◔)っ"
+      "title": "Forking Paseo: Mobile vibe coding for me",
+      "url": "https://dev.to/thisisryanswift/forking-paseo-mobile-vibe-coding-for-me-48pa",
+      "reactions": 31,
+      "comments": 1,
+      "author": "Ryan Swift"
     }
   ],
   "arXiv": [
     {
-      "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
-      "published": "2026-04-29",
-      "summary": "Diffusion large language models (dLLMs) offer parallel decoding and bidirectional context, but state-of-the-art dLLMs require billions of parameters f...",
-      "author": "Gongbo Zhang"
+      "title": "Computing Equilibrium beyond Unilateral Deviation",
+      "published": "2026-04-30",
+      "summary": "Most familiar equilibrium concepts, such as Nash and correlated equilibrium, guarantee only that no single player can improve their utility by deviati...",
+      "author": "Mingyang Liu"
     },
     {
-      "title": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport",
-      "published": "2026-04-29",
-      "summary": "We introduce Hyper Input Convex Neural Networks (HyCNNs), a novel neural network architecture designed for learning convex functions. HyCNNs combine t...",
-      "author": "Shayan Hundrieser"
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "published": "2026-04-30",
+      "summary": "Reinforcement learning (RL) has become essential to the post-training of large language models (LLMs) for reasoning, agentic capabilities and alignmen...",
+      "author": "Eyon Jang"
     },
     {
-      "title": "Learning Over-Relaxation Policies for ADMM with Convergence Guarantees",
-      "published": "2026-04-29",
-      "summary": "The Alternating Direction Method of Multipliers (ADMM) is a widely used method for structured convex optimization, and its practical performance depen...",
-      "author": "Junan Lin"
+      "title": "Synthetic Computers at Scale for Long-Horizon Productivity Simulation",
+      "published": "2026-04-30",
+      "summary": "Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and ...",
+      "author": "Tao Ge"
     },
     {
-      "title": "A Note on How to Remove the $\\ln\\ln T$ Term from the Squint Bound",
-      "published": "2026-04-29",
-      "summary": "In Orabona and Pál [2016], we introduced the shifted KT potentials, to remove the $\\ln \\ln T$ factor in the parameter-free learning with expert bound....",
-      "author": "Francesco Orabona"
+      "title": "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
+      "published": "2026-04-30",
+      "summary": "In recent years, physics-informed neural networks (PINNs) have gained significant attention for solving differential equations, although they suffer f...",
+      "author": "Himanshu Pandey"
     },
     {
-      "title": "On the Learning Curves of Revenue Maximization",
-      "published": "2026-04-29",
-      "summary": "Learning curves are a fundamental primitive in supervised learning, describing how an algorithm's performance improves with more data and providing a ...",
-      "author": "Steve Hanneke"
+      "title": "LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis",
+      "published": "2026-04-30",
+      "summary": "Electroencephalogram (EEG) signals are vital for automated seizure detection, but their inherent noise makes robust representation learning challengin...",
+      "author": "Lincan Li"
     },
     {
-      "title": "Causal Learning with Neural Assemblies",
-      "published": "2026-04-29",
-      "summary": "Can Neural Assemblies -- groups of neurons that fire together and strengthen through co-activation -- learn the direction of causal influence between ...",
-      "author": "Evangelia Kopadi"
+      "title": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders",
+      "published": "2026-04-30",
+      "summary": "Machine learning models can learn from data samples to carry out various tasks efficiently. When data samples are adversarially manipulated, such as b...",
+      "author": "Emma Andrews"
     },
     {
-      "title": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
-      "published": "2026-04-29",
-      "summary": "Claw-style environments support multi-step workflows over local files, tools, and persistent workspace states. However, scalable development around th...",
-      "author": "Fei Bai"
+      "title": "Strait: Perceiving Priority and Interference in ML Inference Serving",
+      "published": "2026-04-30",
+      "summary": "Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. H...",
+      "author": "Haidong Zhao"
     },
     {
-      "title": "Recent Advances in mm-Wave and Sub-THz/THz Oscillators for FutureG Technologies",
-      "published": "2026-04-29",
-      "summary": "This paper provides a concise yet comprehensive review of recent advancements in millimeter-wave (mm-wave) oscillators below 100 GHz and sub-terahertz...",
-      "author": "Baktash Behmanesh"
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "published": "2026-04-30",
+      "summary": "Modern video diffusion models excel at appearance synthesis but still struggle with physical consistency: objects drift, collisions lack realistic reb...",
+      "author": "Sriram Narayanan"
     },
     {
-      "title": "Stochastic Scaling Limits and Synchronization by Noise in Deep Transformer Models",
-      "published": "2026-04-29",
-      "summary": "We prove pathwise convergence of the layerwise evolution of tokens in a finite-depth, finite-width transformer model with MultiLayer Perceptron (MLP) ...",
-      "author": "Andrea Agazzi"
+      "title": "Mapping the Phase Diagram of the Vicsek Model with Machine Learning",
+      "published": "2026-04-30",
+      "summary": "In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional param...",
+      "author": "Grace T. Bai"
     },
     {
-      "title": "Multiple Additive Neural Networks for Structured and Unstructured Data",
-      "published": "2026-04-29",
-      "summary": "This paper extends and explains the Multiple Additive Neural Networks (MANN) methodology, an enhancement to the traditional Gradient Boosting framewor...",
-      "author": "Janis Mohr"
+      "title": "Sequential Inference for Gaussian Processes: A Signal Processing Perspective",
+      "published": "2026-04-30",
+      "summary": "The proliferation of capable and efficient machine learning (ML) models marks one of the strongest methodological shifts in signal processing (SP) in ...",
+      "author": "Daniel Waxman"
     }
   ],
   "googleTrends": [
@@ -253,72 +253,72 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2792,
-      "numComments": 321,
+      "score": 2798,
+      "numComments": 322,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Ghostty Is Leaving GitHub",
-      "score": 1162,
+      "score": 1191,
       "numComments": 314,
       "url": "https://reddit.com/r/programming/comments/1sye8fc/ghostty_is_leaving_github/"
     },
     {
+      "subreddit": "programming",
+      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "score": 655,
+      "numComments": 47,
+      "url": "https://reddit.com/r/programming/comments/1t058mu/microsoft_opensources_the_earliest_dos_source/"
+    },
+    {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 645,
+      "score": 646,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
-      "subreddit": "SideProject",
-      "title": "Can't believe I spent a 100 hours on building this...was it worth it?",
-      "score": 485,
-      "numComments": 237,
-      "url": "https://reddit.com/r/SideProject/comments/1sz7jzx/cant_believe_i_spent_a_100_hours_on_building/"
-    },
-    {
       "subreddit": "programming",
       "title": "Copy Fail: an exploit for all Linux distributions since 2017",
-      "score": 360,
-      "numComments": 92,
+      "score": 441,
+      "numComments": 123,
       "url": "https://reddit.com/r/programming/comments/1szrkre/copy_fail_an_exploit_for_all_linux_distributions/"
+    },
+    {
+      "subreddit": "SideProject",
+      "title": "spent 3 weeks vibe coding a texting app that’s slower than email",
+      "score": 266,
+      "numComments": 64,
+      "url": "https://reddit.com/r/SideProject/comments/1t0wzki/spent_3_weeks_vibe_coding_a_texting_app_thats/"
     },
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 261,
-      "numComments": 102,
+      "score": 265,
+      "numComments": 103,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
-    },
-    {
-      "subreddit": "SaaS",
-      "title": "New Rule against Self-Promo",
-      "score": 177,
-      "numComments": 93,
-      "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
       "title": "FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
-      "score": 173,
-      "numComments": 13,
+      "score": 189,
+      "numComments": 15,
       "url": "https://reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/"
     },
     {
-      "subreddit": "programming",
-      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "score": 153,
-      "numComments": 12,
-      "url": "https://reddit.com/r/programming/comments/1t058mu/microsoft_opensources_the_earliest_dos_source/"
+      "subreddit": "SaaS",
+      "title": "New Rule against Self-Promo",
+      "score": 175,
+      "numComments": 95,
+      "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
-      "title": "Bugs Rust Won't Catch",
-      "score": 152,
-      "numComments": 47,
-      "url": "https://reddit.com/r/programming/comments/1syrgku/bugs_rust_wont_catch/"
+      "title": "You can beat the binary search",
+      "score": 168,
+      "numComments": 26,
+      "url": "https://reddit.com/r/programming/comments/1t08t7r/you_can_beat_the_binary_search/"
     }
   ]
 }
