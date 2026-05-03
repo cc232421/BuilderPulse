@@ -1,27 +1,28 @@
 {
-  "generatedAt": "2026-05-03T09:18:21.405Z",
+  "generatedAt": "2026-05-03T09:19:47.660Z",
   "hackerNews": [
     {
       "by": "brendanmc6",
-      "descendants": 77,
+      "descendants": 79,
       "id": 47994012,
       "kids": [
         47994080,
         47994492,
         47994757,
+        47994926,
         47994809,
         47994970,
         47994433,
         47994602,
-        47994926,
         47994423,
+        47995064,
         47994548,
         47994416,
         47994846,
         47994715,
         47994502,
-        47994999,
         47994796,
+        47994999,
         47994788,
         47994214,
         47994760,
@@ -124,6 +125,24 @@
       "url": "https://code.videolan.org/videolan/dav2d"
     },
     {
+      "by": "wglb",
+      "descendants": 13,
+      "id": 47962645,
+      "kids": [
+        47993643,
+        47994547,
+        47993985,
+        47993527,
+        47993406,
+        47993370
+      ],
+      "score": 82,
+      "time": 1777557686,
+      "title": "The IBM Granite 4.1 family of models",
+      "type": "story",
+      "url": "https://research.ibm.com/blog/granite-4-1-ai-foundation-models"
+    },
+    {
       "by": "valzevul",
       "descendants": 64,
       "id": 47990606,
@@ -151,24 +170,6 @@
       "url": "https://www.david-smith.org/blog/2026/04/29/maps-on-watchos/"
     },
     {
-      "by": "wglb",
-      "descendants": 13,
-      "id": 47962645,
-      "kids": [
-        47993643,
-        47994547,
-        47993985,
-        47993527,
-        47993406,
-        47993370
-      ],
-      "score": 81,
-      "time": 1777557686,
-      "title": "The IBM Granite 4.1 family of models",
-      "type": "story",
-      "url": "https://research.ibm.com/blog/granite-4-1-ai-foundation-models"
-    },
-    {
       "by": "deut-erium",
       "descendants": 0,
       "id": 47966975,
@@ -185,8 +186,8 @@
       "kids": [
         47994223,
         47990743,
-        47994981,
         47993366,
+        47994981,
         47995018,
         47994386,
         47992445,
@@ -215,7 +216,7 @@
     },
     {
       "by": "RubyGuy",
-      "descendants": 102,
+      "descendants": 103,
       "id": 47988592,
       "kids": [
         47995042,
@@ -504,19 +505,19 @@
   "githubTrending": [
     {
       "fullName": "mattpocock/skills",
-      "stars": 55765,
+      "stars": 55766,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
     {
       "fullName": "Alishahryar1/free-claude-code",
-      "stars": 20400,
+      "stars": 20401,
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "TauricResearch/TradingAgents",
-      "stars": 63773,
+      "stars": 63775,
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
       "language": "N/A"
     },
@@ -534,19 +535,19 @@
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 107324,
+      "stars": 107326,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
     {
       "fullName": "soxoj/maigret",
-      "stars": 23120,
+      "stars": 23121,
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites  ",
       "language": "N/A"
     },
     {
       "fullName": "abhigyanpatwari/GitNexus",
-      "stars": 34931,
+      "stars": 34933,
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration  ",
       "language": "N/A"
     },
@@ -831,70 +832,70 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2800,
+      "score": 2794,
       "numComments": 324,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "score": 728,
+      "score": 722,
       "numComments": 51,
       "url": "https://reddit.com/r/programming/comments/1t058mu/microsoft_opensources_the_earliest_dos_source/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 649,
+      "score": 652,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "programming",
       "title": "Copy Fail: an exploit for all Linux distributions since 2017",
-      "score": 479,
+      "score": 486,
       "numComments": 125,
       "url": "https://reddit.com/r/programming/comments/1szrkre/copy_fail_an_exploit_for_all_linux_distributions/"
     },
     {
       "subreddit": "SaaS",
       "title": "I quit my job to build an AI SaaS. It flopped. The “boring” backup idea is now making me more in a month than I used to make in a year.",
-      "score": 342,
+      "score": 341,
       "numComments": 195,
       "url": "https://reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
     },
     {
       "subreddit": "programming",
       "title": "How Containers Work: Building a Docker-like Container From Scratch",
-      "score": 324,
+      "score": 320,
       "numComments": 21,
       "url": "https://reddit.com/r/programming/comments/1t0w811/how_containers_work_building_a_dockerlike/"
     },
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 266,
+      "score": 272,
       "numComments": 104,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "programming",
       "title": "You can beat the binary search",
-      "score": 191,
+      "score": 196,
       "numComments": 33,
       "url": "https://reddit.com/r/programming/comments/1t08t7r/you_can_beat_the_binary_search/"
     },
     {
       "subreddit": "SaaS",
       "title": "New Rule against Self-Promo",
-      "score": 176,
+      "score": 177,
       "numComments": 96,
       "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
       "title": "Unsigned sizes: a five year mistake",
-      "score": 156,
+      "score": 154,
       "numComments": 54,
       "url": "https://reddit.com/r/programming/comments/1t20rdz/unsigned_sizes_a_five_year_mistake/"
     }
