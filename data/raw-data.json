@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T09:21:04.841Z",
+  "generatedAt": "2026-05-03T09:22:03.649Z",
   "hackerNews": [
     {
       "by": "brendanmc6",
@@ -7,8 +7,8 @@
       "id": 47994012,
       "kids": [
         47994080,
-        47994492,
         47994757,
+        47994492,
         47994809,
         47994926,
         47994970,
@@ -16,8 +16,8 @@
         47994602,
         47994423,
         47995064,
-        47994999,
         47994548,
+        47994999,
         47994416,
         47994846,
         47994715,
@@ -29,7 +29,7 @@
         47994738,
         47994713
       ],
-      "score": 99,
+      "score": 100,
       "time": 1777790018,
       "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
       "type": "story",
@@ -136,7 +136,7 @@
         47993406,
         47993370
       ],
-      "score": 82,
+      "score": 83,
       "time": 1777557686,
       "title": "The IBM Granite 4.1 family of models",
       "type": "story",
@@ -144,7 +144,7 @@
     },
     {
       "by": "valzevul",
-      "descendants": 64,
+      "descendants": 65,
       "id": 47990606,
       "kids": [
         47990968,
@@ -173,7 +173,7 @@
       "by": "deut-erium",
       "descendants": 0,
       "id": 47966975,
-      "score": 12,
+      "score": 13,
       "time": 1777576481,
       "title": "Forging ZK proofs to mint arbitrary DUSK tokens",
       "type": "story",
@@ -208,7 +208,7 @@
         47992896,
         47991106
       ],
-      "score": 185,
+      "score": 186,
       "time": 1777754540,
       "title": "Neanderthals ran 'fat factories' 125,000 years ago (2025)",
       "type": "story",
@@ -314,8 +314,8 @@
         47990515,
         47992554,
         47994046,
-        47994810,
         47990595,
+        47994810,
         47994259,
         47990610,
         47992183,
@@ -323,8 +323,8 @@
         47991921,
         47990833,
         47992543,
-        47994745,
         47992341,
+        47994745,
         47994820,
         47992441,
         47992996,
@@ -338,8 +338,8 @@
         47990540,
         47991102,
         47991852,
-        47994884,
         47992672,
+        47994884,
         47991759,
         47994435,
         47992152,
@@ -396,7 +396,7 @@
         47990445,
         47990432
       ],
-      "score": 1160,
+      "score": 1162,
       "time": 1777751846,
       "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
       "type": "story",
@@ -413,7 +413,7 @@
         47993251,
         47993987
       ],
-      "score": 196,
+      "score": 197,
       "time": 1777540343,
       "title": "Inventions for battery reuse and recycling increase seven-fold in last decade",
       "type": "story",
@@ -421,7 +421,7 @@
     },
     {
       "by": "signa11",
-      "descendants": 16,
+      "descendants": 17,
       "id": 47972114,
       "kids": [
         47993928,
@@ -517,7 +517,7 @@
     },
     {
       "fullName": "TauricResearch/TradingAgents",
-      "stars": 63777,
+      "stars": 63779,
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
       "language": "N/A"
     },
@@ -535,7 +535,7 @@
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 107328,
+      "stars": 107329,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
@@ -832,35 +832,35 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2803,
+      "score": 2797,
       "numComments": 324,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "score": 723,
+      "score": 725,
       "numComments": 51,
       "url": "https://reddit.com/r/programming/comments/1t058mu/microsoft_opensources_the_earliest_dos_source/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 652,
+      "score": 649,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "programming",
       "title": "Copy Fail: an exploit for all Linux distributions since 2017",
-      "score": 480,
+      "score": 477,
       "numComments": 125,
       "url": "https://reddit.com/r/programming/comments/1szrkre/copy_fail_an_exploit_for_all_linux_distributions/"
     },
     {
       "subreddit": "SaaS",
       "title": "I quit my job to build an AI SaaS. It flopped. The “boring” backup idea is now making me more in a month than I used to make in a year.",
-      "score": 342,
+      "score": 343,
       "numComments": 195,
       "url": "https://reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
     },
@@ -874,30 +874,30 @@
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 268,
+      "score": 269,
       "numComments": 104,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "programming",
       "title": "You can beat the binary search",
-      "score": 191,
+      "score": 189,
       "numComments": 33,
       "url": "https://reddit.com/r/programming/comments/1t08t7r/you_can_beat_the_binary_search/"
     },
     {
       "subreddit": "SaaS",
       "title": "New Rule against Self-Promo",
-      "score": 174,
+      "score": 177,
       "numComments": 96,
       "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
-      "title": "Unsigned sizes: a five year mistake",
-      "score": 158,
-      "numComments": 54,
-      "url": "https://reddit.com/r/programming/comments/1t20rdz/unsigned_sizes_a_five_year_mistake/"
+      "title": "Approaching zero bugs? - Daniel Stenberg",
+      "score": 154,
+      "numComments": 21,
+      "url": "https://reddit.com/r/programming/comments/1t1uplj/approaching_zero_bugs_daniel_stenberg/"
     }
   ]
 }
