@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-03T09:17:33.524Z",
+  "generatedAt": "2026-05-03T09:18:21.405Z",
   "hackerNews": [
     {
       "by": "brendanmc6",
-      "descendants": 75,
+      "descendants": 77,
       "id": 47994012,
       "kids": [
         47994080,
@@ -12,23 +12,23 @@
         47994809,
         47994970,
         47994433,
-        47994926,
         47994602,
+        47994926,
         47994423,
         47994548,
         47994416,
         47994846,
-        47994999,
-        47994502,
-        47994788,
-        47994796,
-        47994214,
         47994715,
+        47994502,
+        47994999,
+        47994796,
+        47994788,
+        47994214,
         47994760,
         47994738,
         47994713
       ],
-      "score": 97,
+      "score": 98,
       "time": 1777790018,
       "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
       "type": "story",
@@ -90,7 +90,7 @@
         47994095,
         47994689
       ],
-      "score": 312,
+      "score": 314,
       "time": 1777754790,
       "title": "This Month in Ladybird - April 2026",
       "type": "story",
@@ -98,7 +98,7 @@
     },
     {
       "by": "dabinat",
-      "descendants": 124,
+      "descendants": 125,
       "id": 47988504,
       "kids": [
         47988928,
@@ -240,8 +240,8 @@
         47990064,
         47990549,
         47990441,
-        47993938,
         47991313,
+        47993938,
         47990271,
         47989578,
         47992710,
@@ -302,8 +302,8 @@
         47990362,
         47990582,
         47990547,
-        47994663,
         47990556,
+        47994663,
         47990343,
         47991786,
         47991964,
@@ -314,15 +314,15 @@
         47992554,
         47994810,
         47994046,
-        47994259,
         47990595,
+        47994259,
         47990610,
         47992183,
         47990486,
         47991921,
-        47994820,
-        47994745,
         47990833,
+        47994745,
+        47994820,
         47992543,
         47992341,
         47992441,
@@ -343,11 +343,11 @@
         47994435,
         47992152,
         47991143,
-        47993218,
         47991954,
+        47993218,
         47992296,
-        47992795,
         47990852,
+        47992795,
         47990493,
         47994749,
         47990792,
@@ -370,8 +370,8 @@
         47990473,
         47991979,
         47991795,
-        47994407,
         47990752,
+        47994407,
         47992080,
         47991715,
         47990499,
@@ -384,9 +384,9 @@
         47990460,
         47990839,
         47990538,
+        47994741,
         47995019,
         47995016,
-        47994741,
         47992854,
         47991778,
         47992075,
@@ -395,7 +395,7 @@
         47990445,
         47990432
       ],
-      "score": 1159,
+      "score": 1160,
       "time": 1777751846,
       "title": "VS Code inserting 'Co-Authored-by Copilot' into commits regardless of usage",
       "type": "story",
@@ -504,7 +504,7 @@
   "githubTrending": [
     {
       "fullName": "mattpocock/skills",
-      "stars": 55764,
+      "stars": 55765,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
@@ -516,7 +516,7 @@
     },
     {
       "fullName": "TauricResearch/TradingAgents",
-      "stars": 63769,
+      "stars": 63773,
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
       "language": "N/A"
     },
@@ -534,7 +534,7 @@
     },
     {
       "fullName": "forrestchang/andrej-karpathy-skills",
-      "stars": 107323,
+      "stars": 107324,
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.  ",
       "language": "N/A"
     },
@@ -831,70 +831,70 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2794,
+      "score": 2800,
       "numComments": 324,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "score": 725,
+      "score": 728,
       "numComments": 51,
       "url": "https://reddit.com/r/programming/comments/1t058mu/microsoft_opensources_the_earliest_dos_source/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 647,
+      "score": 649,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "programming",
       "title": "Copy Fail: an exploit for all Linux distributions since 2017",
-      "score": 481,
+      "score": 479,
       "numComments": 125,
       "url": "https://reddit.com/r/programming/comments/1szrkre/copy_fail_an_exploit_for_all_linux_distributions/"
     },
     {
       "subreddit": "SaaS",
       "title": "I quit my job to build an AI SaaS. It flopped. The “boring” backup idea is now making me more in a month than I used to make in a year.",
-      "score": 339,
+      "score": 342,
       "numComments": 195,
       "url": "https://reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
     },
     {
       "subreddit": "programming",
       "title": "How Containers Work: Building a Docker-like Container From Scratch",
-      "score": 317,
+      "score": 324,
       "numComments": 21,
       "url": "https://reddit.com/r/programming/comments/1t0w811/how_containers_work_building_a_dockerlike/"
     },
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 267,
+      "score": 266,
       "numComments": 104,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "programming",
       "title": "You can beat the binary search",
-      "score": 193,
+      "score": 191,
       "numComments": 33,
       "url": "https://reddit.com/r/programming/comments/1t08t7r/you_can_beat_the_binary_search/"
     },
     {
       "subreddit": "SaaS",
       "title": "New Rule against Self-Promo",
-      "score": 177,
+      "score": 176,
       "numComments": 96,
       "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
     },
     {
       "subreddit": "programming",
       "title": "Unsigned sizes: a five year mistake",
-      "score": 152,
+      "score": 156,
       "numComments": 54,
       "url": "https://reddit.com/r/programming/comments/1t20rdz/unsigned_sizes_a_five_year_mistake/"
     }
