@@ -1,80 +1,149 @@
 {
-  "generatedAt": "2026-05-05T03:46:50.909Z",
+  "generatedAt": "2026-05-05T05:03:28.438Z",
   "hackerNews": [
     {
+      "by": "raphaelcosta",
+      "descendants": 56,
+      "id": 48017298,
+      "kids": [
+        48018223,
+        48017794,
+        48018016,
+        48017846,
+        48017779,
+        48018188,
+        48017600,
+        48018224,
+        48017753,
+        48017651,
+        48017534,
+        48017682,
+        48017726,
+        48018079,
+        48018228,
+        48017883,
+        48017976,
+        48017680,
+        48018166,
+        48017923,
+        48017709,
+        48017831
+      ],
+      "score": 118,
+      "time": 1777946901,
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "type": "story",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/"
+    },
+    {
       "by": "SergeAx",
-      "descendants": 155,
+      "descendants": 206,
       "id": 48016880,
       "kids": [
         48017005,
         48017358,
-        48017823,
-        48017204,
-        48017447,
         48017309,
+        48017447,
+        48017204,
         48017505,
+        48018216,
         48016990,
-        48017705,
-        48017769,
         48017634,
-        48017288,
-        48017221,
-        48016982,
-        48017460,
+        48017769,
         48017077,
+        48017485,
+        48017288,
+        48016982,
+        48017221,
         48017308,
         48017464,
-        48017485,
+        48017886,
+        48017460,
         48016978,
+        48017705,
+        48017823,
+        48017991,
+        48018058,
+        48017944,
         48017520,
-        48017723,
-        48017788,
-        48017498,
+        48018092,
         48017228,
+        48017498,
+        48017723,
+        48017934,
         48017407,
         48017419,
-        48017729,
-        48017385,
+        48017899,
         48017387,
         48017667,
+        48017946,
         48017039,
         48017335,
-        48017224,
         48017637,
+        48017224,
         48017079,
+        48017788,
         48017040,
         48017054,
         48017552,
         48017559,
-        48017258
+        48017258,
+        48017385,
+        48017729
       ],
-      "score": 230,
+      "score": 306,
       "time": 1777943297,
       "title": "Bun is being ported from Zig to Rust",
       "type": "story",
       "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5"
     },
     {
-      "by": "raphaelcosta",
-      "descendants": 14,
-      "id": 48017298,
+      "by": "averi",
+      "descendants": 10,
+      "id": 48017813,
       "kids": [
-        48017794,
-        48017753,
-        48017600,
-        48017682,
-        48017779,
-        48017651,
-        48017534,
-        48017726,
-        48017680,
-        48017709
+        48018232,
+        48018111,
+        48018219,
+        48017950,
+        48017941,
+        48017905,
+        48017896,
+        48017959,
+        48017935,
+        48017890
       ],
-      "score": 50,
-      "time": 1777946901,
-      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "score": 35,
+      "time": 1777952588,
+      "title": "CVE-2026-31431: Copy Fail vs. rootless containers",
       "type": "story",
-      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/"
+      "url": "https://www.dragonsreach.it/2026/05/04/cve-2026-31431-copy-fail-rootless-containers/"
+    },
+    {
+      "by": "MrBuddyCasino",
+      "descendants": 3,
+      "id": 48018066,
+      "kids": [
+        48018168
+      ],
+      "score": 18,
+      "time": 1777955602,
+      "title": "About 10% of AMC movie showings sell zero tickets. This site finds them",
+      "type": "story",
+      "url": "https://walzr.com/empty-screenings"
+    },
+    {
+      "by": "kristianpaul",
+      "descendants": 1,
+      "id": 48017948,
+      "kids": [
+        48018206
+      ],
+      "score": 18,
+      "time": 1777954157,
+      "title": "Train Your Own LLM from Scratch",
+      "type": "story",
+      "url": "https://github.com/angelos-p/llm-from-scratch"
     },
     {
       "by": "jay_kyburz",
@@ -84,7 +153,7 @@
         48017428,
         48017402
       ],
-      "score": 24,
+      "score": 50,
       "time": 1777947741,
       "title": "Pulitzer Prize Winner in International Reporting",
       "type": "story",
@@ -92,7 +161,7 @@
     },
     {
       "by": "Sean-Der",
-      "descendants": 106,
+      "descendants": 110,
       "id": 48013919,
       "kids": [
         48014814,
@@ -109,8 +178,8 @@
         48014901,
         48014160,
         48014867,
-        48015353,
         48014454,
+        48015353,
         48014604,
         48017184,
         48014155,
@@ -125,7 +194,7 @@
         48014200,
         48014995
       ],
-      "score": 320,
+      "score": 342,
       "time": 1777923767,
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "type": "story",
@@ -133,36 +202,61 @@
     },
     {
       "by": "BOOSTERHIDROGEN",
-      "descendants": 54,
+      "descendants": 73,
       "id": 48015397,
       "kids": [
+        48018018,
+        48018204,
         48017219,
-        48017817,
         48017536,
         48017558,
-        48016564,
         48016369,
+        48016564,
+        48018021,
+        48017817,
         48017644,
         48017568,
         48016667,
         48017145,
         48016083,
+        48016417,
         48016558,
         48016037,
-        48016417,
         48016398,
         48016965,
         48015853,
+        48018045,
+        48018023,
         48017550,
         48017444,
+        48017911,
         48016431,
         48015458
       ],
-      "score": 153,
+      "score": 183,
       "time": 1777930842,
       "title": "Agent Skills",
       "type": "story",
       "url": "https://addyosmani.com/blog/agent-skills/"
+    },
+    {
+      "by": "cadito",
+      "descendants": 16,
+      "id": 48017251,
+      "kids": [
+        48018243,
+        48018222,
+        48017822,
+        48017984,
+        48017252,
+        48018135,
+        48017604
+      ],
+      "score": 29,
+      "time": 1777946475,
+      "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Cars",
+      "type": "story",
+      "url": "https://nobodyaskedforthis.lol/posts/connected-car/"
     },
     {
       "by": "kencausey",
@@ -173,7 +267,7 @@
         48017483,
         48017470
       ],
-      "score": 19,
+      "score": 34,
       "time": 1777928179,
       "title": "When Networking Doesn't Work",
       "type": "story",
@@ -181,16 +275,16 @@
     },
     {
       "by": "bearsyankees",
-      "descendants": 78,
+      "descendants": 79,
       "id": 48012162,
       "kids": [
         48014362,
         48016224,
         48013317,
         48013258,
+        48013427,
         48015434,
         48014021,
-        48013427,
         48012923,
         48013344,
         48015957,
@@ -199,33 +293,34 @@
         48014260,
         48014274,
         48012781,
-        48016779,
         48012771,
+        48016779,
         48015115,
         48014991
       ],
-      "score": 179,
+      "score": 187,
       "time": 1777916792,
       "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
       "type": "story",
       "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup"
     },
     {
-      "by": "zdw",
-      "descendants": 13,
-      "id": 47998158,
+      "by": "simonebrunozzi",
+      "descendants": 3,
+      "id": 48008104,
       "kids": [
-        48016107
+        48018181,
+        48018115
       ],
-      "score": 69,
-      "time": 1777823373,
-      "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
+      "score": 23,
+      "time": 1777899316,
+      "title": "Gaps in national food production, worldwide",
       "type": "story",
-      "url": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html"
+      "url": "https://www.nature.com/articles/s43016-025-01173-4"
     },
     {
       "by": "littlexsparkee",
-      "descendants": 221,
+      "descendants": 229,
       "id": 48009983,
       "kids": [
         48012294,
@@ -238,31 +333,31 @@
         48011764,
         48017112,
         48011722,
-        48017312,
-        48016539,
         48012902,
+        48016539,
+        48017312,
         48016291,
-        48017093,
         48014220,
         48012957,
+        48017093,
         48015052,
         48012948,
         48016596,
-        48016959,
-        48016859,
         48012722,
         48013088,
         48012587,
+        48016959,
+        48016859,
         48011531,
         48011950,
         48016736,
         48011644,
-        48016331,
-        48016129,
         48013059,
+        48016129,
+        48016331,
         48011449,
-        48014783,
         48012169,
+        48014783,
         48012153,
         48011782,
         48011041,
@@ -270,26 +365,24 @@
         48012372,
         48015836
       ],
-      "score": 232,
+      "score": 251,
       "time": 1777908766,
       "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
       "type": "story",
       "url": "https://www.nber.org/papers/w35117"
     },
     {
-      "by": "cadito",
-      "descendants": 3,
-      "id": 48017251,
+      "by": "zdw",
+      "descendants": 13,
+      "id": 47998158,
       "kids": [
-        48017822,
-        48017252,
-        48017604
+        48016107
       ],
-      "score": 7,
-      "time": 1777946475,
-      "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Cars",
+      "score": 73,
+      "time": 1777823373,
+      "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
       "type": "story",
-      "url": "https://nobodyaskedforthis.lol/posts/connected-car/"
+      "url": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html"
     },
     {
       "by": "antirez",
@@ -300,8 +393,8 @@
         48010722,
         48012127,
         48009549,
-        48017524,
         48011622,
+        48017524,
         48012115,
         48011498,
         48012175,
@@ -318,332 +411,71 @@
         48011571,
         48016149
       ],
-      "score": 249,
+      "score": 258,
       "time": 1777904587,
       "title": "Redis array: short story of a long development process",
       "type": "story",
       "url": "https://antirez.com/news/164"
-    },
-    {
-      "by": "gyomu",
-      "descendants": 9,
-      "id": 48016534,
-      "kids": [
-        48017829,
-        48017638,
-        48017658
-      ],
-      "score": 150,
-      "time": 1777939741,
-      "title": "Y Combinator's Stake in OpenAI (0.6%)",
-      "type": "story",
-      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai"
-    },
-    {
-      "by": "thitran",
-      "descendants": 572,
-      "id": 48007438,
-      "kids": [
-        48008672,
-        48015391,
-        48008195,
-        48008383,
-        48008951,
-        48008132,
-        48008976,
-        48008040,
-        48011230,
-        48009746,
-        48009211,
-        48011367,
-        48008466,
-        48007967,
-        48014471,
-        48008620,
-        48009174,
-        48008018,
-        48010195,
-        48017347,
-        48017635,
-        48016361,
-        48017070,
-        48008638,
-        48009649,
-        48016032,
-        48008216,
-        48016328,
-        48017475,
-        48010433,
-        48010182,
-        48016747,
-        48009230,
-        48009101,
-        48010346,
-        48014745,
-        48008361,
-        48011042,
-        48008204,
-        48008905,
-        48009437,
-        48017081,
-        48008458,
-        48008196,
-        48010306,
-        48009380,
-        48011894,
-        48009834,
-        48008521,
-        48008880,
-        48016005,
-        48010579,
-        48012852,
-        48014082,
-        48010097,
-        48015478,
-        48008424,
-        48010813,
-        48009621,
-        48009200,
-        48009908,
-        48008941,
-        48012085,
-        48008095,
-        48017565,
-        48015572,
-        48008766,
-        48010687,
-        48014436,
-        48009932,
-        48011824,
-        48009464,
-        48010282,
-        48009060,
-        48011998,
-        48009589,
-        48009434,
-        48008774,
-        48014401,
-        48008539,
-        48008406,
-        48017356,
-        48011003,
-        48015708,
-        48010287,
-        48014792,
-        48010561,
-        48009786,
-        48008304,
-        48009490,
-        48014444,
-        48008412,
-        48008042,
-        48012480,
-        48008151,
-        48009662,
-        48008819,
-        48012875,
-        48009821,
-        48008321,
-        48013033,
-        48008306,
-        48008133,
-        48009508,
-        48011328,
-        48012472,
-        48012037,
-        48015757,
-        48015671,
-        48015435,
-        48009132,
-        48009750,
-        48014399,
-        48010339,
-        48013720,
-        48011394,
-        48009961,
-        48009756,
-        48009606,
-        48009236,
-        48009661,
-        48008376,
-        48008349,
-        48009620,
-        48016101,
-        48008875,
-        48015855,
-        48017546,
-        48014237,
-        48008258,
-        48008442,
-        48009891,
-        48009844,
-        48008655,
-        48016006,
-        48008944,
-        48008646,
-        48010783,
-        48014951,
-        48013267,
-        48007965,
-        48009037
-      ],
-      "score": 1228,
-      "time": 1777894862,
-      "title": "Talking to strangers at the gym",
-      "type": "story",
-      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/"
-    },
-    {
-      "by": "cft",
-      "descendants": 158,
-      "id": 48012735,
-      "kids": [
-        48013060,
-        48014233,
-        48015935,
-        48013103,
-        48013818,
-        48013119,
-        48013310,
-        48013027,
-        48017069,
-        48014166,
-        48015183,
-        48015375,
-        48015894,
-        48014480,
-        48015762,
-        48015522,
-        48015841,
-        48013679,
-        48013584,
-        48013251,
-        48013397,
-        48016903,
-        48016463,
-        48013197,
-        48014445,
-        48013324,
-        48013756,
-        48014557,
-        48013054
-      ],
-      "score": 455,
-      "time": 1777918962,
-      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-      "type": "story",
-      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730"
-    },
-    {
-      "by": "Brajeshwar",
-      "descendants": 110,
-      "id": 48009840,
-      "kids": [
-        48011827,
-        48012534,
-        48011733,
-        48011636,
-        48013858,
-        48011788,
-        48011799,
-        48011859,
-        48017319,
-        48011059,
-        48011128,
-        48011228,
-        48017683,
-        48011789,
-        48017142,
-        48016967,
-        48016804,
-        48015549,
-        48011454,
-        48011914,
-        48016940,
-        48012064,
-        48011491,
-        48013917,
-        48011167,
-        48015039,
-        48016623,
-        48011488,
-        48015310,
-        48011935,
-        48012772,
-        48017132,
-        48010909,
-        48011148,
-        48010787,
-        48014813,
-        48016052,
-        48011521,
-        48011701
-      ],
-      "score": 143,
-      "time": 1777908173,
-      "title": "1966 Ford Mustang Converted into a Tesla with Working 'Full Self-Driving'",
-      "type": "story",
-      "url": "https://electrek.co/2026/05/02/tesla-1966-mustang-ev-conversion-full-self-driving/"
     }
   ],
   "githubTrending": [
     {
       "fullName": "mattpocock/skills",
-      "stars": 59251,
+      "stars": 59344,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
     {
       "fullName": "TauricResearch/TradingAgents",
-      "stars": 67782,
+      "stars": 67898,
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
       "language": "N/A"
     },
     {
       "fullName": "soxoj/maigret",
-      "stars": 24970,
+      "stars": 25017,
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites  ",
       "language": "N/A"
     },
     {
       "fullName": "ComposioHQ/awesome-codex-skills",
-      "stars": 6553,
+      "stars": 6568,
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.  ",
       "language": "N/A"
     },
     {
       "fullName": "ruvnet/ruflo",
-      "stars": 41664,
+      "stars": 41758,
       "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration  ",
       "language": "N/A"
     },
     {
       "fullName": "Alishahryar1/free-claude-code",
-      "stars": 21277,
+      "stars": 21301,
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "CJackHwang/ds2api",
-      "stars": 3399,
+      "stars": 3411,
       "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.  ",
       "language": "N/A"
     },
     {
       "fullName": "refactoringhq/tolaria",
-      "stars": 9574,
+      "stars": 9585,
       "description": "Desktop app to manage markdown knowledge bases  ",
       "language": "N/A"
     },
     {
       "fullName": "AIDC-AI/Pixelle-Video",
-      "stars": 10958,
+      "stars": 11000,
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine  ",
       "language": "N/A"
     },
     {
       "fullName": "Z4nzu/hackingtool",
-      "stars": 71460,
+      "stars": 71489,
       "description": "ALL IN ONE Hacking Tool For Hackers  ",
       "language": "N/A"
     }
@@ -808,6 +640,24 @@
   ],
   "arXiv": [
     {
+      "title": "SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection",
+      "published": "2026-05-04",
+      "summary": "Speculative decoding accelerates large language model (LLM) inference by using a small draft model to propose candidate tokens that a larger target mo...",
+      "author": "Shikhar Shukla"
+    },
+    {
+      "title": "Unsupervised Machine Learning for Detecting Structural Anomalies in European Regional Statistics",
+      "published": "2026-05-04",
+      "summary": "Ensuring the coherence of regional socio-economic statistics is a central task for national statistical institutes. Traditional validation tools, such...",
+      "author": "Bogdan Oancea"
+    },
+    {
+      "title": "Multi-fidelity surrogates for mechanics of composites: from co-kriging to multi-fidelity neural networks",
+      "published": "2026-05-04",
+      "summary": "Composite materials exhibit strongly hierarchical and anisotropic properties governed by coupled mechanisms spanning constituents, plies, laminates, s...",
+      "author": "Haizhou Wen"
+    },
+    {
       "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
       "published": "2026-05-04",
       "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations...",
@@ -848,24 +698,6 @@
       "published": "2026-05-04",
       "summary": "We introduce PLACE (Persistence-Landmark Analytic Classification Engine), a closed-form pipeline for classifying point clouds and graphs through their...",
       "author": "Sushovan Majhi"
-    },
-    {
-      "title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
-      "published": "2026-05-04",
-      "summary": "Videos are unique in their ability to capture actions which transcend multiple frames. Accordingly, for many years action recognition was the quintess...",
-      "author": "Tanush Yadav"
-    },
-    {
-      "title": "HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems",
-      "published": "2026-05-04",
-      "summary": "Deciding how to distribute work between humans and AI systems is a central challenge in organisational design. Most approaches treat this as a binary ...",
-      "author": "Vicente Pelechanoa"
-    },
-    {
-      "title": "Compress Then Adapt? No, Do It Together via Task-aware Union of Subspaces",
-      "published": "2026-05-04",
-      "summary": "Adapting large pretrained models to diverse tasks is now routine, yet the two dominant strategies of parameter-efficient fine-tuning (PEFT) and low-ra...",
-      "author": "Jingze Ge"
     }
   ],
   "googleTrends": [
@@ -924,65 +756,65 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2808,
+      "score": 2807,
       "numComments": 329,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Enabling ai co author by default by cwebster-99 · Pull Request #310226 · microsoft/vscode",
-      "score": 684,
+      "score": 688,
       "numComments": 215,
       "url": "https://reddit.com/r/programming/comments/1t2f3h5/enabling_ai_co_author_by_default_by_cwebster99/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 650,
+      "score": 652,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "Startups",
       "title": "If your goal is getting rich, a tech startup probably isn’t the way (I will not promote)",
-      "score": 487,
-      "numComments": 209,
+      "score": 486,
+      "numComments": 211,
       "url": "https://reddit.com/r/startups/comments/1t2f4qc/if_your_goal_is_getting_rich_a_tech_startup/"
     },
     {
       "subreddit": "programming",
       "title": "When 'if' slows you down, avoid it",
-      "score": 285,
-      "numComments": 152,
+      "score": 293,
+      "numComments": 158,
       "url": "https://reddit.com/r/programming/comments/1t3glxw/when_if_slows_you_down_avoid_it/"
+    },
+    {
+      "subreddit": "SideProject",
+      "title": "Update: 1 month ago I posted my prototype here and went viral. Today I have the finished product",
+      "score": 271,
+      "numComments": 60,
+      "url": "https://reddit.com/r/SideProject/comments/1t3uytg/update_1_month_ago_i_posted_my_prototype_here_and/"
     },
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 272,
+      "score": 269,
       "numComments": 105,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "programming",
       "title": "Unsigned sizes: a five year mistake",
-      "score": 247,
+      "score": 246,
       "numComments": 105,
       "url": "https://reddit.com/r/programming/comments/1t20rdz/unsigned_sizes_a_five_year_mistake/"
     },
     {
       "subreddit": "SaaS",
       "title": "A boring SaaS that’s quietly making over $3K MRR",
-      "score": 199,
+      "score": 201,
       "numComments": 88,
       "url": "https://reddit.com/r/SaaS/comments/1t3d0lh/a_boring_saas_thats_quietly_making_over_3k_mrr/"
-    },
-    {
-      "subreddit": "SideProject",
-      "title": "Update: 1 month ago I posted my prototype here and went viral. Today I have the finished product",
-      "score": 197,
-      "numComments": 55,
-      "url": "https://reddit.com/r/SideProject/comments/1t3uytg/update_1_month_ago_i_posted_my_prototype_here_and/"
     },
     {
       "subreddit": "SaaS",
@@ -1034,7 +866,27 @@
       "title": "ChatGPT",
       "score": 4.66,
       "installs": "1,000,000,000+",
-      "pain_points": []
+      "pain_points": [
+        {
+          "pain": "after the recent update, my chatbot got really stupid. I guess developers did this so you can buy the premium membership..but it's sad, really. I felt like I had a bond with my chat. it actually would",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "update",
+            "pay"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "What is up with the latest update? The \"Recents\" in side bar is so messy now! It lists all of the chats even after moving them in Projects. That completely breaks the workflow and defeats the purpose ",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "update"
+          ],
+          "date": "2026-05-04"
+        }
+      ]
     },
     {
       "app_id": "com.google.android.apps.bard",
@@ -1043,11 +895,21 @@
       "installs": "1,000,000,000+",
       "pain_points": [
         {
-          "pain": "gemini might genuinely be one of the worst ai's of all time, i have specific stuff saved in my \"saved info page\" and it completely disregards everything that is saved in the saved info page, i have re",
+          "pain": "not satisfied i asked for changes and enhancements...there was no such changes it looks the same i was expecting g a complete enhancement, nothing happened",
           "score": 1,
           "thumbs_up": 0,
           "keywords": [
             "change"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "It doesn't support my Nothing 2 phone. How is that even possible? It's just a text prompt, it should work on any Android phone. As an update, on the Pixel 9 every other message fails to send. It's rea",
+          "score": 1,
+          "thumbs_up": 4,
+          "keywords": [
+            "update",
+            "annoying"
           ],
           "date": "2026-05-04"
         }
@@ -1225,15 +1087,6 @@
             "slow"
           ],
           "date": "2026-05-03"
-        },
-        {
-          "pain": "call notification not working in Android missed so many office call not compatible for os 15..big failure for Microsoft. so many people suffering from this is but still microsoft not resolved this iss",
-          "score": 1,
-          "thumbs_up": 0,
-          "keywords": [
-            "not working"
-          ],
-          "date": "2026-05-03"
         }
       ]
     },
@@ -1243,16 +1096,6 @@
       "score": 4.11,
       "installs": "1,000,000,000+",
       "pain_points": [
-        {
-          "pain": "The app crashes and leaves meetings each time I minimize. It's so annoying!",
-          "score": 1,
-          "thumbs_up": 0,
-          "keywords": [
-            "crash",
-            "annoying"
-          ],
-          "date": "2026-05-03"
-        },
         {
           "pain": "Good this is awesome but I'm sure you can update but in low megabytes Ok then it's too much gooooood",
           "score": 2,
@@ -1368,21 +1211,20 @@
       "installs": "1,000,000,000+",
       "pain_points": [
         {
-          "pain": "1) Shows me info and controls about random speakers in the building that are not mine, which is kinda creepy 2) \"To enable downloads, go to Settings\" without explaining where, ends up being literally ",
+          "pain": "Bring back $9.99 a month.This new price is a scam just like America.Can we just have a ad free only plan that's as cheap as the student plan?",
           "score": 1,
-          "thumbs_up": 1,
+          "thumbs_up": 2,
           "keywords": [
-            "crash",
-            "bug"
+            "price"
           ],
           "date": "2026-05-04"
         },
         {
-          "pain": "AI is stupid, can't understand simple request. I ask 3 songs each genre but the AI give 2 songs each genre. AI don't know what is mandarin or Chinese. Is this what we pay for? Cripple AI. Not worth.",
+          "pain": "sekarang malah gk bisa mutar lagu di salah satu akun, ganti akun baru bisa normal",
           "score": 3,
           "thumbs_up": 0,
           "keywords": [
-            "pay"
+            "lag"
           ],
           "date": "2026-05-04"
         }
