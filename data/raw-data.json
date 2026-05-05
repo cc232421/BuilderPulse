@@ -1,9 +1,98 @@
 {
-  "generatedAt": "2026-05-05T00:58:26.106Z",
+  "generatedAt": "2026-05-05T03:46:50.909Z",
   "hackerNews": [
     {
+      "by": "SergeAx",
+      "descendants": 155,
+      "id": 48016880,
+      "kids": [
+        48017005,
+        48017358,
+        48017823,
+        48017204,
+        48017447,
+        48017309,
+        48017505,
+        48016990,
+        48017705,
+        48017769,
+        48017634,
+        48017288,
+        48017221,
+        48016982,
+        48017460,
+        48017077,
+        48017308,
+        48017464,
+        48017485,
+        48016978,
+        48017520,
+        48017723,
+        48017788,
+        48017498,
+        48017228,
+        48017407,
+        48017419,
+        48017729,
+        48017385,
+        48017387,
+        48017667,
+        48017039,
+        48017335,
+        48017224,
+        48017637,
+        48017079,
+        48017040,
+        48017054,
+        48017552,
+        48017559,
+        48017258
+      ],
+      "score": 230,
+      "time": 1777943297,
+      "title": "Bun is being ported from Zig to Rust",
+      "type": "story",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5"
+    },
+    {
+      "by": "raphaelcosta",
+      "descendants": 14,
+      "id": 48017298,
+      "kids": [
+        48017794,
+        48017753,
+        48017600,
+        48017682,
+        48017779,
+        48017651,
+        48017534,
+        48017726,
+        48017680,
+        48017709
+      ],
+      "score": 50,
+      "time": 1777946901,
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "type": "story",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/"
+    },
+    {
+      "by": "jay_kyburz",
+      "descendants": 2,
+      "id": 48017399,
+      "kids": [
+        48017428,
+        48017402
+      ],
+      "score": 24,
+      "time": 1777947741,
+      "title": "Pulitzer Prize Winner in International Reporting",
+      "type": "story",
+      "url": "https://www.pulitzer.org/winners/dake-kang-garance-burke-byron-tau-aniruddha-ghosal-and-yael-grauer-contributor-associated"
+    },
+    {
       "by": "Sean-Der",
-      "descendants": 94,
+      "descendants": 106,
       "id": 48013919,
       "kids": [
         48014814,
@@ -12,269 +101,87 @@
         48014204,
         48014276,
         48014746,
-        48016144,
-        48015276,
         48014906,
+        48015276,
+        48016144,
         48014765,
         48014637,
-        48015353,
         48014901,
-        48014867,
         48014160,
+        48014867,
+        48015353,
         48014454,
         48014604,
+        48017184,
         48014155,
         48014922,
         48016674,
         48015093,
         48015101,
         48014352,
+        48016850,
         48014857,
         48014975,
         48014200,
         48014995
       ],
-      "score": 256,
+      "score": 320,
       "time": 1777923767,
       "title": "How OpenAI delivers low-latency voice AI at scale",
       "type": "story",
       "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/"
     },
     {
-      "by": "remote-dev",
-      "descendants": 260,
-      "id": 48011184,
+      "by": "BOOSTERHIDROGEN",
+      "descendants": 54,
+      "id": 48015397,
       "kids": [
-        48011953,
-        48016762,
-        48014627,
-        48015723,
-        48015423,
-        48015015,
-        48015880,
-        48012074,
-        48013190,
-        48016530,
-        48012427,
-        48015516,
-        48011918,
-        48014707,
-        48015969,
-        48012017,
-        48011879,
-        48014180,
-        48011750,
-        48016506,
-        48012289,
-        48012131,
-        48011818,
-        48014327,
-        48012536,
-        48013257,
-        48013269,
-        48014773,
-        48012998,
-        48014759,
-        48013214,
-        48012026,
-        48012620,
-        48012253,
-        48015909,
-        48011814,
-        48014709,
-        48015809,
-        48011971,
-        48012204,
-        48013903,
-        48015446,
-        48012187,
-        48013393,
-        48013668,
-        48012708,
-        48012812,
-        48014544,
-        48012072,
-        48014384,
-        48013260,
-        48015131,
-        48011916,
-        48015776,
-        48015384,
-        48015765,
-        48011878,
-        48014537,
-        48014958,
-        48014126,
-        48013597,
-        48013517,
-        48012138,
-        48012305,
-        48011973,
-        48013836,
-        48012750,
-        48015527,
-        48012047,
-        48016271,
-        48012705,
-        48013455,
-        48015520,
-        48011956
+        48017219,
+        48017817,
+        48017536,
+        48017558,
+        48016564,
+        48016369,
+        48017644,
+        48017568,
+        48016667,
+        48017145,
+        48016083,
+        48016558,
+        48016037,
+        48016417,
+        48016398,
+        48016965,
+        48015853,
+        48017550,
+        48017444,
+        48016431,
+        48015458
       ],
-      "score": 389,
-      "time": 1777913100,
-      "title": "I am worried about Bun",
+      "score": 153,
+      "time": 1777930842,
+      "title": "Agent Skills",
       "type": "story",
-      "url": "https://wwj.dev/posts/i-am-worried-about-bun/"
+      "url": "https://addyosmani.com/blog/agent-skills/"
     },
     {
-      "by": "thitran",
-      "descendants": 522,
-      "id": 48007438,
+      "by": "kencausey",
+      "descendants": 4,
+      "id": 48014868,
       "kids": [
-        48008672,
-        48015391,
-        48008195,
-        48008383,
-        48008951,
-        48008132,
-        48016747,
-        48009746,
-        48008976,
-        48008040,
-        48011230,
-        48009211,
-        48011367,
-        48008466,
-        48014471,
-        48016328,
-        48007967,
-        48008620,
-        48010195,
-        48008018,
-        48009174,
-        48009649,
-        48008638,
-        48016032,
-        48016361,
-        48008216,
-        48010433,
-        48010182,
-        48009230,
-        48014745,
-        48009101,
-        48010346,
-        48016005,
-        48011042,
-        48008361,
-        48008204,
-        48008905,
-        48009437,
-        48008458,
-        48015478,
-        48011894,
-        48008196,
-        48010306,
-        48009380,
-        48014082,
-        48009834,
-        48012852,
-        48015572,
-        48008880,
-        48010579,
-        48010097,
-        48010813,
-        48014436,
-        48008424,
-        48012085,
-        48009621,
-        48009908,
-        48009200,
-        48008941,
-        48015708,
-        48010687,
-        48008095,
-        48014401,
-        48011824,
-        48008766,
-        48011998,
-        48009932,
-        48010282,
-        48009464,
-        48009060,
-        48009589,
-        48009434,
-        48014792,
-        48008774,
-        48008521,
-        48008539,
-        48014444,
-        48008406,
-        48011003,
-        48010287,
-        48010561,
-        48009786,
-        48009490,
-        48008304,
-        48012480,
-        48008412,
-        48008042,
-        48008151,
-        48012875,
-        48009662,
-        48008819,
-        48009821,
-        48013033,
-        48008321,
-        48015757,
-        48008306,
-        48015671,
-        48008133,
-        48015435,
-        48012472,
-        48009508,
-        48011328,
-        48012037,
-        48014399,
-        48009750,
-        48010339,
-        48013720,
-        48011394,
-        48009961,
-        48009756,
-        48009606,
-        48009236,
-        48009132,
-        48009661,
-        48008376,
-        48016101,
-        48015855,
-        48008349,
-        48009620,
-        48008875,
-        48014237,
-        48008258,
-        48008442,
-        48009891,
-        48009844,
-        48016006,
-        48008655,
-        48008944,
-        48008646,
-        48014951,
-        48010783,
-        48013267,
-        48007965,
-        48009037
+        48017562,
+        48017483,
+        48017470
       ],
-      "score": 1114,
-      "time": 1777894862,
-      "title": "Talking to strangers at the gym",
+      "score": 19,
+      "time": 1777928179,
+      "title": "When Networking Doesn't Work",
       "type": "story",
-      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/"
+      "url": "https://www.os2museum.com/wp/when-networking-doesnt-work/"
     },
     {
       "by": "bearsyankees",
-      "descendants": 73,
+      "descendants": 78,
       "id": 48012162,
       "kids": [
         48014362,
@@ -285,142 +192,32 @@
         48014021,
         48013427,
         48012923,
-        48015957,
         48013344,
+        48015957,
         48012737,
         48012851,
         48014260,
         48014274,
-        48016779,
         48012781,
+        48016779,
         48012771,
         48015115,
         48014991
       ],
-      "score": 162,
+      "score": 179,
       "time": 1777916792,
       "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
       "type": "story",
       "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup"
     },
     {
-      "by": "BOOSTERHIDROGEN",
-      "descendants": 20,
-      "id": 48015397,
-      "kids": [
-        48016564,
-        48016369,
-        48016667,
-        48016558,
-        48016083,
-        48016037,
-        48016417,
-        48016398,
-        48015853,
-        48016431,
-        48015458
-      ],
-      "score": 77,
-      "time": 1777930842,
-      "title": "Agent Skills",
-      "type": "story",
-      "url": "https://addyosmani.com/blog/agent-skills/"
-    },
-    {
-      "by": "n1b0m",
-      "descendants": 597,
-      "id": 48006402,
-      "kids": [
-        48008525,
-        48006580,
-        48009146,
-        48015261,
-        48016136,
-        48006689,
-        48006803,
-        48008249,
-        48007177,
-        48013046,
-        48008881,
-        48007617,
-        48016082,
-        48006760,
-        48016396,
-        48016076,
-        48015336,
-        48009484,
-        48007510,
-        48015584,
-        48014575,
-        48006772,
-        48007732,
-        48007673,
-        48011327,
-        48006763,
-        48006798,
-        48009267,
-        48013399,
-        48008393,
-        48014182,
-        48006834,
-        48012917,
-        48010336,
-        48007252,
-        48009905,
-        48007043,
-        48014671,
-        48015784,
-        48007963,
-        48006983,
-        48008721,
-        48013905,
-        48007879,
-        48006690,
-        48007813,
-        48007674,
-        48006801,
-        48013375,
-        48007257,
-        48007006,
-        48008128,
-        48007479,
-        48008963,
-        48009346,
-        48008012,
-        48008298,
-        48007802,
-        48007224,
-        48012484,
-        48009576,
-        48015133,
-        48007146,
-        48010519,
-        48006915,
-        48006589,
-        48006609,
-        48007888,
-        48012174,
-        48007892,
-        48008160,
-        48007959,
-        48007139,
-        48007853,
-        48008991
-      ],
-      "score": 635,
-      "time": 1777887072,
-      "title": "GameStop makes $55.5B takeover offer for eBay",
-      "type": "story",
-      "url": "https://www.bbc.co.uk/news/articles/cn0p8yled1do"
-    },
-    {
       "by": "zdw",
-      "descendants": 8,
+      "descendants": 13,
       "id": 47998158,
       "kids": [
         48016107
       ],
-      "score": 49,
+      "score": 69,
       "time": 1777823373,
       "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
       "type": "story",
@@ -428,36 +225,41 @@
     },
     {
       "by": "littlexsparkee",
-      "descendants": 192,
+      "descendants": 221,
       "id": 48009983,
       "kids": [
         48012294,
         48011721,
         48011173,
-        48013199,
         48011664,
+        48013199,
         48011999,
         48012415,
         48011764,
-        48016539,
-        48016291,
+        48017112,
         48011722,
-        48016596,
-        48016736,
+        48017312,
+        48016539,
         48012902,
+        48016291,
+        48017093,
         48014220,
         48012957,
         48015052,
         48012948,
+        48016596,
+        48016959,
+        48016859,
         48012722,
         48013088,
         48012587,
-        48016331,
         48011531,
-        48016129,
-        48011644,
-        48013059,
         48011950,
+        48016736,
+        48011644,
+        48016331,
+        48016129,
+        48013059,
         48011449,
         48014783,
         48012169,
@@ -468,82 +270,243 @@
         48012372,
         48015836
       ],
-      "score": 202,
+      "score": 232,
       "time": 1777908766,
       "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
       "type": "story",
       "url": "https://www.nber.org/papers/w35117"
     },
     {
+      "by": "cadito",
+      "descendants": 3,
+      "id": 48017251,
+      "kids": [
+        48017822,
+        48017252,
+        48017604
+      ],
+      "score": 7,
+      "time": 1777946475,
+      "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Cars",
+      "type": "story",
+      "url": "https://nobodyaskedforthis.lol/posts/connected-car/"
+    },
+    {
       "by": "antirez",
-      "descendants": 78,
+      "descendants": 83,
       "id": 48009172,
       "kids": [
         48010532,
         48010722,
         48012127,
         48009549,
+        48017524,
         48011622,
         48012115,
         48011498,
         48012175,
-        48015364,
         48010383,
+        48015364,
         48015420,
         48011928,
         48010669,
-        48010738,
         48009656,
+        48010738,
         48010382,
         48011185,
         48011600,
-        48016149,
-        48011571
+        48011571,
+        48016149
       ],
-      "score": 224,
+      "score": 249,
       "time": 1777904587,
       "title": "Redis array: short story of a long development process",
       "type": "story",
       "url": "https://antirez.com/news/164"
     },
     {
-      "by": "r00k",
-      "descendants": 58,
-      "id": 48014325,
+      "by": "gyomu",
+      "descendants": 9,
+      "id": 48016534,
       "kids": [
-        48015273,
-        48015436,
-        48015515,
-        48014748,
-        48015741,
-        48015208,
-        48015750,
-        48015161,
-        48016739,
-        48014583,
-        48015323,
-        48014606,
-        48015619
+        48017829,
+        48017638,
+        48017658
       ],
-      "score": 109,
-      "time": 1777925513,
-      "title": "Formatting a 25M-line codebase overnight",
+      "score": 150,
+      "time": 1777939741,
+      "title": "Y Combinator's Stake in OpenAI (0.6%)",
       "type": "story",
-      "url": "https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story"
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai"
+    },
+    {
+      "by": "thitran",
+      "descendants": 572,
+      "id": 48007438,
+      "kids": [
+        48008672,
+        48015391,
+        48008195,
+        48008383,
+        48008951,
+        48008132,
+        48008976,
+        48008040,
+        48011230,
+        48009746,
+        48009211,
+        48011367,
+        48008466,
+        48007967,
+        48014471,
+        48008620,
+        48009174,
+        48008018,
+        48010195,
+        48017347,
+        48017635,
+        48016361,
+        48017070,
+        48008638,
+        48009649,
+        48016032,
+        48008216,
+        48016328,
+        48017475,
+        48010433,
+        48010182,
+        48016747,
+        48009230,
+        48009101,
+        48010346,
+        48014745,
+        48008361,
+        48011042,
+        48008204,
+        48008905,
+        48009437,
+        48017081,
+        48008458,
+        48008196,
+        48010306,
+        48009380,
+        48011894,
+        48009834,
+        48008521,
+        48008880,
+        48016005,
+        48010579,
+        48012852,
+        48014082,
+        48010097,
+        48015478,
+        48008424,
+        48010813,
+        48009621,
+        48009200,
+        48009908,
+        48008941,
+        48012085,
+        48008095,
+        48017565,
+        48015572,
+        48008766,
+        48010687,
+        48014436,
+        48009932,
+        48011824,
+        48009464,
+        48010282,
+        48009060,
+        48011998,
+        48009589,
+        48009434,
+        48008774,
+        48014401,
+        48008539,
+        48008406,
+        48017356,
+        48011003,
+        48015708,
+        48010287,
+        48014792,
+        48010561,
+        48009786,
+        48008304,
+        48009490,
+        48014444,
+        48008412,
+        48008042,
+        48012480,
+        48008151,
+        48009662,
+        48008819,
+        48012875,
+        48009821,
+        48008321,
+        48013033,
+        48008306,
+        48008133,
+        48009508,
+        48011328,
+        48012472,
+        48012037,
+        48015757,
+        48015671,
+        48015435,
+        48009132,
+        48009750,
+        48014399,
+        48010339,
+        48013720,
+        48011394,
+        48009961,
+        48009756,
+        48009606,
+        48009236,
+        48009661,
+        48008376,
+        48008349,
+        48009620,
+        48016101,
+        48008875,
+        48015855,
+        48017546,
+        48014237,
+        48008258,
+        48008442,
+        48009891,
+        48009844,
+        48008655,
+        48016006,
+        48008944,
+        48008646,
+        48010783,
+        48014951,
+        48013267,
+        48007965,
+        48009037
+      ],
+      "score": 1228,
+      "time": 1777894862,
+      "title": "Talking to strangers at the gym",
+      "type": "story",
+      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/"
     },
     {
       "by": "cft",
-      "descendants": 143,
+      "descendants": 158,
       "id": 48012735,
       "kids": [
         48013060,
         48014233,
         48015935,
         48013103,
+        48013818,
         48013119,
         48013310,
-        48013818,
         48013027,
+        48017069,
         48014166,
         48015183,
         48015375,
@@ -556,6 +519,7 @@
         48013584,
         48013251,
         48013397,
+        48016903,
         48016463,
         48013197,
         48014445,
@@ -564,58 +528,50 @@
         48014557,
         48013054
       ],
-      "score": 389,
+      "score": 455,
       "time": 1777918962,
       "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
       "type": "story",
       "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730"
     },
     {
-      "by": "samizdis",
-      "descendants": 2,
-      "id": 47989594,
-      "kids": [
-        48016597,
-        48016481
-      ],
-      "score": 21,
-      "time": 1777750050,
-      "title": "Jonathan Swift's Last Joke",
-      "type": "story",
-      "url": "https://www.newyorker.com/culture/the-weekend-essay/jonathan-swifts-last-joke"
-    },
-    {
       "by": "Brajeshwar",
-      "descendants": 90,
+      "descendants": 110,
       "id": 48009840,
       "kids": [
-        48016804,
         48011827,
         48012534,
-        48011636,
         48011733,
+        48011636,
         48013858,
-        48011799,
-        48011059,
         48011788,
+        48011799,
         48011859,
-        48011789,
+        48017319,
+        48011059,
         48011128,
-        48016623,
-        48015549,
         48011228,
+        48017683,
+        48011789,
+        48017142,
+        48016967,
+        48016804,
+        48015549,
         48011454,
-        48013917,
+        48011914,
+        48016940,
         48012064,
         48011491,
-        48015310,
-        48011914,
-        48015039,
-        48012772,
+        48013917,
         48011167,
-        48010909,
+        48015039,
+        48016623,
         48011488,
+        48015310,
         48011935,
+        48012772,
+        48017132,
+        48010909,
         48011148,
         48010787,
         48014813,
@@ -623,116 +579,71 @@
         48011521,
         48011701
       ],
-      "score": 118,
+      "score": 143,
       "time": 1777908173,
       "title": "1966 Ford Mustang Converted into a Tesla with Working 'Full Self-Driving'",
       "type": "story",
       "url": "https://electrek.co/2026/05/02/tesla-1966-mustang-ev-conversion-full-self-driving/"
-    },
-    {
-      "by": "theazureguy",
-      "descendants": 74,
-      "id": 48009747,
-      "kids": [
-        48009748,
-        48010849,
-        48011234,
-        48012963,
-        48012141,
-        48011552,
-        48014466,
-        48013647,
-        48013376,
-        48013481,
-        48013432,
-        48014019,
-        48011683,
-        48015089,
-        48012883,
-        48015616,
-        48010546
-      ],
-      "score": 157,
-      "time": 1777907721,
-      "title": "UK Fuel Price Intelligence – Market analytics from reporting stations",
-      "type": "story",
-      "url": "https://www.fuelinsight.co.uk"
-    },
-    {
-      "by": "bearseascape",
-      "descendants": 6,
-      "id": 48014197,
-      "kids": [
-        48015691,
-        48015633,
-        48016575,
-        48015422
-      ],
-      "score": 28,
-      "time": 1777924988,
-      "title": "Transformers Are Inherently Succinct (2025)",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2510.19315"
     }
   ],
   "githubTrending": [
     {
       "fullName": "mattpocock/skills",
-      "stars": 59027,
+      "stars": 59251,
       "description": "Skills for Real Engineers. Straight from my .claude directory.  ",
       "language": "N/A"
     },
     {
       "fullName": "TauricResearch/TradingAgents",
-      "stars": 67497,
+      "stars": 67782,
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework  ",
       "language": "N/A"
     },
     {
       "fullName": "soxoj/maigret",
-      "stars": 24837,
+      "stars": 24970,
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites  ",
       "language": "N/A"
     },
     {
       "fullName": "ComposioHQ/awesome-codex-skills",
-      "stars": 6504,
+      "stars": 6553,
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.  ",
       "language": "N/A"
     },
     {
       "fullName": "ruvnet/ruflo",
-      "stars": 41429,
+      "stars": 41664,
       "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration  ",
       "language": "N/A"
     },
     {
       "fullName": "Alishahryar1/free-claude-code",
-      "stars": 21223,
+      "stars": 21277,
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)  ",
       "language": "N/A"
     },
     {
       "fullName": "CJackHwang/ds2api",
-      "stars": 3378,
+      "stars": 3399,
       "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.  ",
       "language": "N/A"
     },
     {
       "fullName": "refactoringhq/tolaria",
-      "stars": 9545,
+      "stars": 9574,
       "description": "Desktop app to manage markdown knowledge bases  ",
       "language": "N/A"
     },
     {
       "fullName": "AIDC-AI/Pixelle-Video",
-      "stars": 10875,
+      "stars": 10958,
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine  ",
       "language": "N/A"
     },
     {
       "fullName": "Z4nzu/hackingtool",
-      "stars": 71401,
+      "stars": 71460,
       "description": "ALL IN ONE Hacking Tool For Hackers  ",
       "language": "N/A"
     }
@@ -748,8 +659,8 @@
       ],
       "readingTime": 4,
       "language": "en",
-      "reactions": 109,
-      "comments": 49,
+      "reactions": 110,
+      "comments": 50,
       "author": "Jess Lee"
     },
     {
@@ -762,8 +673,8 @@
       ],
       "readingTime": 3,
       "language": "en",
-      "reactions": 136,
-      "comments": 85,
+      "reactions": 137,
+      "comments": 86,
       "author": "Sylwia Laskowska"
     },
     {
@@ -810,8 +721,8 @@
       ],
       "readingTime": 5,
       "language": "en",
-      "reactions": 52,
-      "comments": 40,
+      "reactions": 53,
+      "comments": 41,
       "author": "Sylwia Laskowska"
     },
     {
@@ -897,64 +808,64 @@
   ],
   "arXiv": [
     {
-      "title": "HyCOP: Hybrid Composition Operators for Interpretable Learning of PDEs",
-      "published": "2026-05-01",
-      "summary": "We introduce HyCOP, a modular framework that learns parametric PDE solution operators by composing simple modules (advection, diffusion, learned closu...",
-      "author": "Jinpai Zhao"
+      "title": "Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters",
+      "published": "2026-05-04",
+      "summary": "Despite significant advances in Reinforcement Learning (RL), model performance remains highly sensitive to algorithm and hyperparameter configurations...",
+      "author": "Lingxiao Kong"
     },
     {
-      "title": "Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs",
-      "published": "2026-05-01",
-      "summary": "While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable proficiency in multimodal tasks, they face a \"Visual Signal Dilution\"...",
-      "author": "Siyuan Huang"
+      "title": "Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection",
+      "published": "2026-05-04",
+      "summary": "Cross-language code clone detection (X-CCD) is challenging because semantically equivalent programs written in different languages often share little ...",
+      "author": "Mohamad Khajezade"
     },
     {
-      "title": "Can Coding Agents Reproduce Findings in Computational Materials Science?",
-      "published": "2026-05-01",
-      "summary": "Large language models are increasingly deployed as autonomous coding agents and have achieved remarkably strong performance on software engineering be...",
-      "author": "Ziyang Huang"
+      "title": "From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+      "published": "2026-05-04",
+      "summary": "Scientists increasingly rely on sensor-based data, yet transforming raw streams into insights across the edge-to-cloud continuum remains difficult. Pr...",
+      "author": "Komal Thareja"
     },
     {
-      "title": "Generating Statistical Charts with Validation-Driven LLM Workflows",
-      "published": "2026-05-01",
-      "summary": "Generating diverse, readable statistical charts from tabular data remains challenging for LLMs, as many failures become apparent after rendering and a...",
-      "author": "Pavlin G. Poličar"
+      "title": "Trust, but Verify: Peeling Low-Bit Transformer Networks for Training Monitoring",
+      "published": "2026-05-04",
+      "summary": "Understanding whether deep neural networks are effectively optimized remains challenging, as training occurs in highly nonconvex landscapes and standa...",
+      "author": "Arian Eamaz"
     },
     {
-      "title": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution",
-      "published": "2026-05-01",
-      "summary": "Humans solve problems by executing targeted plans, yet large language models (LLMs) remain unreliable for structured workflow execution. We propose Ru...",
-      "author": "Arunabh Srivastava"
+      "title": "(POSTER) From Sensors to Insight: Rapid, Edge-to-Core Application Development for Sensor-Driven Applications",
+      "published": "2026-05-04",
+      "summary": "Scientists increasingly rely on sensor-based data; however transforming raw streams into insights across the edge-to-cloud continuum remains difficult...",
+      "author": "Komal Thareja"
     },
     {
-      "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI",
-      "published": "2026-05-01",
-      "summary": "Background: Patient-facing medical chatbots based on retrieval-augmented generation (RAG) are increasingly promoted to deliver accessible, grounded he...",
-      "author": "Alfredo Madrid-García"
+      "title": "A second-order method on the Stiefel manifold via Newton$\\unicode{x2013}$Schulz",
+      "published": "2026-05-04",
+      "summary": "Retraction-free approaches offer attractive low-cost alternatives to Riemannian methods on the Stiefel manifold, but they are often first-order, which...",
+      "author": "Xinhui Xiong"
     },
     {
-      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
-      "published": "2026-05-01",
-      "summary": "With the development of deep learning, medical image processing has been widely used to assist clinical research. This paper focuses on the denoising ...",
-      "author": "Jingxi Pu"
+      "title": "A Closed-Form Persistence-Landmark Pipeline for Certified Point-Cloud and Graph Classification",
+      "published": "2026-05-04",
+      "summary": "We introduce PLACE (Persistence-Landmark Analytic Classification Engine), a closed-form pipeline for classifying point clouds and graphs through their...",
+      "author": "Sushovan Majhi"
     },
     {
-      "title": "Make Your LVLM KV Cache More Lightweight",
-      "published": "2026-05-01",
-      "summary": "Key-Value (KV) cache has become a de facto component of modern Large Vision-Language Models (LVLMs) for inference. While it enhances decoding efficien...",
-      "author": "Xihao Chen"
+      "title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
+      "published": "2026-05-04",
+      "summary": "Videos are unique in their ability to capture actions which transcend multiple frames. Accordingly, for many years action recognition was the quintess...",
+      "author": "Tanush Yadav"
     },
     {
-      "title": "SAVGO: Learning State-Action Value Geometry with Cosine Similarity for Continuous Control",
-      "published": "2026-05-01",
-      "summary": "While representation and similarity learning have improved the sample efficiency of Reinforcement Learning (RL), they are rarely used to shape policy ...",
-      "author": "Stavros Orfanoudakis"
+      "title": "HAAS: A Policy-Aware Framework for Adaptive Task Allocation Between Humans and Artificial Intelligence Systems",
+      "published": "2026-05-04",
+      "summary": "Deciding how to distribute work between humans and AI systems is a central challenge in organisational design. Most approaches treat this as a binary ...",
+      "author": "Vicente Pelechanoa"
     },
     {
-      "title": "GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair",
-      "published": "2026-05-01",
-      "summary": "Reliable spatial analysis in GIScience requires preserving coordinate semantics, topology, units, and geographic plausibility. Current LLM-based GIS s...",
-      "author": "Yinhao Xiao"
+      "title": "Compress Then Adapt? No, Do It Together via Task-aware Union of Subspaces",
+      "published": "2026-05-04",
+      "summary": "Adapting large pretrained models to diverse tasks is now routine, yet the two dominant strategies of parameter-efficient fine-tuning (PEFT) and low-ra...",
+      "author": "Jingze Ge"
     }
   ],
   "googleTrends": [
@@ -1013,72 +924,469 @@
     {
       "subreddit": "programming",
       "title": "Announcement: Temporary LLM Content Ban",
-      "score": 2805,
+      "score": 2808,
       "numComments": 329,
       "url": "https://reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/"
     },
     {
       "subreddit": "programming",
       "title": "Enabling ai co author by default by cwebster-99 · Pull Request #310226 · microsoft/vscode",
-      "score": 678,
-      "numComments": 214,
+      "score": 684,
+      "numComments": 215,
       "url": "https://reddit.com/r/programming/comments/1t2f3h5/enabling_ai_co_author_by_default_by_cwebster99/"
     },
     {
       "subreddit": "SideProject",
       "title": "Share your ***Not-AI*** projects",
-      "score": 649,
+      "score": 650,
       "numComments": 1806,
       "url": "https://reddit.com/r/SideProject/comments/1oaq2kx/share_your_notai_projects/"
     },
     {
       "subreddit": "Startups",
       "title": "If your goal is getting rich, a tech startup probably isn’t the way (I will not promote)",
-      "score": 483,
+      "score": 487,
       "numComments": 209,
       "url": "https://reddit.com/r/startups/comments/1t2f4qc/if_your_goal_is_getting_rich_a_tech_startup/"
     },
     {
-      "subreddit": "SideProject",
-      "title": "I built ASCILINE: A Web Engine that streams video as raw ASCII text directly to the browser at 60FPS using WebSockets (bypassing traditional &lt;video&gt; tags).",
-      "score": 328,
-      "numComments": 88,
-      "url": "https://reddit.com/r/SideProject/comments/1t2uywk/i_built_asciline_a_web_engine_that_streams_video/"
+      "subreddit": "programming",
+      "title": "When 'if' slows you down, avoid it",
+      "score": 285,
+      "numComments": 152,
+      "url": "https://reddit.com/r/programming/comments/1t3glxw/when_if_slows_you_down_avoid_it/"
     },
     {
       "subreddit": "SaaS",
       "title": "End of AI Slop",
-      "score": 268,
+      "score": 272,
       "numComments": 105,
       "url": "https://reddit.com/r/SaaS/comments/1sndwq7/end_of_ai_slop/"
     },
     {
       "subreddit": "programming",
       "title": "Unsigned sizes: a five year mistake",
-      "score": 248,
+      "score": 247,
       "numComments": 105,
       "url": "https://reddit.com/r/programming/comments/1t20rdz/unsigned_sizes_a_five_year_mistake/"
     },
     {
-      "subreddit": "programming",
-      "title": "When 'if' slows you down, avoid it",
-      "score": 247,
-      "numComments": 137,
-      "url": "https://reddit.com/r/programming/comments/1t3glxw/when_if_slows_you_down_avoid_it/"
+      "subreddit": "SaaS",
+      "title": "A boring SaaS that’s quietly making over $3K MRR",
+      "score": 199,
+      "numComments": 88,
+      "url": "https://reddit.com/r/SaaS/comments/1t3d0lh/a_boring_saas_thats_quietly_making_over_3k_mrr/"
     },
     {
       "subreddit": "SideProject",
-      "title": "I know you use Claude for coding here's a free setup that cut my token usage 71.5x",
-      "score": 214,
-      "numComments": 45,
-      "url": "https://reddit.com/r/SideProject/comments/1t2zkbd/i_know_you_use_claude_for_coding_heres_a_free/"
+      "title": "Update: 1 month ago I posted my prototype here and went viral. Today I have the finished product",
+      "score": 197,
+      "numComments": 55,
+      "url": "https://reddit.com/r/SideProject/comments/1t3uytg/update_1_month_ago_i_posted_my_prototype_here_and/"
     },
     {
       "subreddit": "SaaS",
-      "title": "A boring SaaS that’s quietly making over $3K MRR",
-      "score": 186,
-      "numComments": 88,
-      "url": "https://reddit.com/r/SaaS/comments/1t3d0lh/a_boring_saas_thats_quietly_making_over_3k_mrr/"
+      "title": "New Rule against Self-Promo",
+      "score": 179,
+      "numComments": 95,
+      "url": "https://reddit.com/r/SaaS/comments/1slno92/new_rule_against_selfpromo/"
+    }
+  ],
+  "playStore": [
+    {
+      "app_id": "com.anthropic.claude",
+      "title": "Claude by Anthropic",
+      "score": 4.55,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "very bad responses and not working without subscription",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "not working",
+            "subscription"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "claude is rubbish for God knows how long I have been, trying to open it. they told me to input my phone number they are saying invalid number on top of number I have been using closely 5yrs now. you p",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "annoying"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "Bad. Abyssmal usage. Just 5-6 prompts, and your out of messages. Whatever usage they allow free users is a joke. Become money hungry pretty fast.",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "hate"
+          ],
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "app_id": "com.openai.chatgpt",
+      "title": "ChatGPT",
+      "score": 4.66,
+      "installs": "1,000,000,000+",
+      "pain_points": []
+    },
+    {
+      "app_id": "com.google.android.apps.bard",
+      "title": "Google Gemini",
+      "score": 4.64,
+      "installs": "1,000,000,000+",
+      "pain_points": [
+        {
+          "pain": "gemini might genuinely be one of the worst ai's of all time, i have specific stuff saved in my \"saved info page\" and it completely disregards everything that is saved in the saved info page, i have re",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "change"
+          ],
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "app_id": "com.todoist",
+      "title": "Todoist: To Do List & Calendar",
+      "score": 4.58,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "garbage app that will charge you a subscription, even if you cancel and will hide cancelation options from you",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "subscription"
+          ],
+          "date": "2026-04-29"
+        },
+        {
+          "pain": "notifications never seem to work or notify on time. turned off all battery saver options.",
+          "score": 1,
+          "thumbs_up": 2,
+          "keywords": [
+            "battery"
+          ],
+          "date": "2026-04-13"
+        },
+        {
+          "pain": "Sign you up for spam without informing! I didn't sign up for newsletters and such! Also, important options like reminders are behind a paywall. (Only 1 reminder allowed in the free version).",
+          "score": 2,
+          "thumbs_up": 1,
+          "keywords": [
+            "pay"
+          ],
+          "date": "2026-04-27"
+        }
+      ]
+    },
+    {
+      "app_id": "com.ticktick.task",
+      "title": "TickTick:To Do List & Calendar",
+      "score": 4.61,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "Voice support not working despite having google app installed",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "not working"
+          ],
+          "date": "2026-05-03"
+        },
+        {
+          "pain": "This app had everything I wanted. Unfortunately it can't handle recurring events from my synced Calendar. There are people reporting this bug from over a year ago, and still no fix.",
+          "score": 3,
+          "thumbs_up": 0,
+          "keywords": [
+            "bug"
+          ],
+          "date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "app_id": "com.microsoft.todos",
+      "title": "Microsoft To Do: Lists & Tasks",
+      "score": 4.62,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "it won't scroll the pages, everytime i already at the bottom near my keyboard it's not scrolling and I can't see anything i have just typed. back then it doesn't have bug like this",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "bug"
+          ],
+          "date": "2026-05-03"
+        },
+        {
+          "pain": "new update has widget glitching so hard. going to give me a seizure. can you guys do anything right?",
+          "score": 1,
+          "thumbs_up": 37,
+          "keywords": [
+            "update"
+          ],
+          "date": "2026-05-01"
+        },
+        {
+          "pain": "Widget has been broken for a while. It just keeps flickering because it's continuously updating. Tried uninstalling and clearing the cache, but that only fixes it for a few hours. It's a shame because",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "broken"
+          ],
+          "date": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "app_id": "com.google.android.apps.tasks",
+      "title": "Google Tasks",
+      "score": 4.59,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "repeating task and taskd details are somewhat buggy",
+          "score": 1,
+          "thumbs_up": 2,
+          "keywords": [
+            "bug"
+          ],
+          "date": "2026-04-30"
+        },
+        {
+          "pain": "reminders are still not working properly. add more formatting functions like those in Keep.",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "not working"
+          ],
+          "date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "app_id": "com.discord",
+      "title": "Discord - Talk, Play, Hang Out",
+      "score": 4.28,
+      "installs": "500,000,000+",
+      "pain_points": [
+        {
+          "pain": "App freezed and glitches out when attempting to join vc on mobile. will show connected on PC but unresponsive on phone",
+          "score": 1,
+          "thumbs_up": 2,
+          "keywords": [
+            "freeze"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "started crashing recently and does not even let me open chats any more it keeps crashing.",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "crash"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "actually TERRIBLE app. It Loves to crash and freeze all the time, if you're in a voice call and you leave the app it lags for a solid 30 seconds before letting you actually do anything. terrible app.",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "crash",
+            "lag"
+          ],
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "app_id": "com.microsoft.teams",
+      "title": "Microsoft Teams",
+      "score": 4.62,
+      "installs": "500,000,000+",
+      "pain_points": [
+        {
+          "pain": "This app is hard to explain in its current state. Its so slow, can't accept any calls, and messages is not sending. even on a good connection please fix this",
+          "score": 1,
+          "thumbs_up": 1,
+          "keywords": [
+            "slow"
+          ],
+          "date": "2026-05-03"
+        },
+        {
+          "pain": "call notification not working in Android missed so many office call not compatible for os 15..big failure for Microsoft. so many people suffering from this is but still microsoft not resolved this iss",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "not working"
+          ],
+          "date": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "app_id": "us.zoom.videomeetings",
+      "title": "Zoom Workplace",
+      "score": 4.11,
+      "installs": "1,000,000,000+",
+      "pain_points": [
+        {
+          "pain": "The app crashes and leaves meetings each time I minimize. It's so annoying!",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "crash",
+            "annoying"
+          ],
+          "date": "2026-05-03"
+        },
+        {
+          "pain": "Good this is awesome but I'm sure you can update but in low megabytes Ok then it's too much gooooood",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "update"
+          ],
+          "date": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "app_id": "com.github.android",
+      "title": "GitHub",
+      "score": 4.75,
+      "installs": "10,000,000+",
+      "pain_points": [
+        {
+          "pain": "horrible, pathetic app. stick to using github on your full fledged computer. this app is okay if you want to file a quick bug report, but beyond that i found this app to be completely useless.",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "bug"
+          ],
+          "date": "2026-05-02"
+        },
+        {
+          "pain": "Entire platform has been broken. Neither https not ssh works anymore.",
+          "score": 1,
+          "thumbs_up": 1,
+          "keywords": [
+            "broken"
+          ],
+          "date": "2026-05-01"
+        },
+        {
+          "pain": "I don't know what I expected, but since there's several links to settings I at least assumed you could change your settings. This app is filled with links forcing you to log in through the apps built ",
+          "score": 1,
+          "thumbs_up": 1,
+          "keywords": [
+            "change"
+          ],
+          "date": "2026-04-28"
+        }
+      ]
+    },
+    {
+      "app_id": "com.foxdebug.acode",
+      "title": "Acode - code editor | OSS",
+      "score": 4.23,
+      "installs": "10,000+",
+      "pain_points": [
+        {
+          "pain": "fix the theme issue it's annoying I have a theme downloaded and enabled from plugin section named 'Vscode Dark Editor Theme' by LegendSabir whenever I restart/reopen the app the theme gets disabled an",
+          "score": 2,
+          "thumbs_up": 0,
+          "keywords": [
+            "annoying"
+          ],
+          "date": "2026-04-09"
+        },
+        {
+          "pain": "This app has been misbehaving since. Anytime it's opened, every change gets lost. While clearing(backpace), it either freezes or doesn't work at times.",
+          "score": 2,
+          "thumbs_up": 1,
+          "keywords": [
+            "freeze",
+            "change"
+          ],
+          "date": "2025-06-11"
+        }
+      ]
+    },
+    {
+      "app_id": "com.google.android.keep",
+      "title": "Google Keep - Notes and lists",
+      "score": 4.67,
+      "installs": "1,000,000,000+",
+      "pain_points": [
+        {
+          "pain": "I miss Samsung notes, I switched to a new phone and it's lacking features that the old one had. What's the point in getting a new phone if the old one is shittier than the new one?? Fix your app! I wa",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "change"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "okay so I used to write everything on this app like all my important life events and all. as it was like my personal diary. for past two years,I can't write anything on it and I can't read my previous",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "update"
+          ],
+          "date": "2026-05-03"
+        },
+        {
+          "pain": "I have an old Asus Z380M which runs Android 7. This app has been nagging me for some time to update it with both a popup on open and a persistent label at the bottom. The fact is there is now no versi",
+          "score": 1,
+          "thumbs_up": 0,
+          "keywords": [
+            "update"
+          ],
+          "date": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "app_id": "com.spotify.music",
+      "title": "Spotify: Music and Podcasts",
+      "score": 4.34,
+      "installs": "1,000,000,000+",
+      "pain_points": [
+        {
+          "pain": "1) Shows me info and controls about random speakers in the building that are not mine, which is kinda creepy 2) \"To enable downloads, go to Settings\" without explaining where, ends up being literally ",
+          "score": 1,
+          "thumbs_up": 1,
+          "keywords": [
+            "crash",
+            "bug"
+          ],
+          "date": "2026-05-04"
+        },
+        {
+          "pain": "AI is stupid, can't understand simple request. I ask 3 songs each genre but the AI give 2 songs each genre. AI don't know what is mandarin or Chinese. Is this what we pay for? Cripple AI. Not worth.",
+          "score": 3,
+          "thumbs_up": 0,
+          "keywords": [
+            "pay"
+          ],
+          "date": "2026-05-04"
+        }
+      ]
     }
   ]
 }
