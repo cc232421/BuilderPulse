@@ -62,26 +62,65 @@ const TECH_TERMS = [
   { en: 'modern', zh: '现代' },
 ];
 
+const SKIP_PATTERNS = [
+  'Not-AI',
+  'AI Slop',
+  'End of AI Slop',
+];
+
 function simpleTranslate(text) {
   if (!text || typeof text !== 'string') return '';
   let result = text;
+  
+  for (const skip of SKIP_PATTERNS) {
+    const escaped = skip.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(escaped, 'gi');
+    const placeholder = `__SKIP_${skip.replace(/\s+/g, '_').toUpperCase()}__`;
+    result = result.replace(regex, placeholder);
+  }
+  
   TECH_TERMS.forEach(({ en, zh }) => {
     const regex = new RegExp(`\\b${en}\\b`, 'gi');
     result = result.replace(regex, zh);
   });
+  
+  for (const skip of SKIP_PATTERNS) {
+    const placeholder = `__SKIP_${skip.replace(/\s+/g, '_').toUpperCase()}__`;
+    result = result.replaceAll(placeholder, skip);
+  }
+  
   return result;
 }
 
-// Generate a short Chinese summary from English text based on keyword matching
 function generateChineseSummary(text) {
   if (!text || typeof text !== 'string') return '';
   const lower = text.toLowerCase();
   
-  // HN story categories
-  if (lower.includes('security') || lower.includes('breach') || lower.includes('vulnerability')) {
+  if (lower.includes('claude') || lower.includes('anthropic')) {
+    return 'Claude/Anthropic 生态';
+  }
+  if (lower.includes('openai') || lower.includes('gpt') || lower.includes('chatgpt')) {
+    return 'OpenAI/GPT 生态';
+  }
+  if (lower.includes('security') || lower.includes('breach') || lower.includes('vulnerability') || lower.includes('compromise') || lower.includes('supply-chain')) {
     return '安全/漏洞相关';
   }
-  if (lower.includes('ai') || lower.includes('llm') || lower.includes('machine learning')) {
+  if (lower.includes('health') || lower.includes('medical') || lower.includes('biology') || lower.includes('drug') || lower.includes('rehabilitation')) {
+    return '医疗/生物相关';
+  }
+  if (lower.includes('finance') || lower.includes('crypto') || lower.includes('blockchain') || lower.includes('trading')) {
+    return '金融/区块链相关';
+  }
+  if (lower.includes('workforce') || lower.includes('layoff') || lower.includes('reduction') || lower.includes('shutdown')) {
+    return '公司/人事变动';
+  }
+  if (lower.includes('agent') || lower.includes('autonomous')) {
+    return 'AI 智能体相关';
+  }
+  if (lower.includes('llm') || lower.includes('machine learning') || lower.includes('deep learning')) {
+    return 'AI/机器学习相关';
+  }
+  if (/\bai\b/.test(lower) && (lower.includes('model') || lower.includes('framework') || lower.includes('tool') || lower.includes('build') || lower.includes('write'))) {
     return 'AI/机器学习相关';
   }
   if (lower.includes('open source') || lower.includes('github') || lower.includes('coding')) {
@@ -90,36 +129,19 @@ function generateChineseSummary(text) {
   if (lower.includes('product') || lower.includes('startup') || lower.includes('founder')) {
     return '产品/创业相关';
   }
-  if (lower.includes('claude') || lower.includes('anthropic')) {
-    return 'Claude/Anthropic 生态';
-  }
-  if (lower.includes('openai') || lower.includes('gpt')) {
-    return 'OpenAI/GPT 生态';
-  }
-  if (lower.includes('agent') || lower.includes('autonomous')) {
-    return 'AI 智能体相关';
-  }
   if (lower.includes('data') || lower.includes('database')) {
     return '数据/数据库相关';
-  }
-  if (lower.includes('finance') || lower.includes('crypto') || lower.includes('blockchain')) {
-    return '金融/区块链相关';
-  }
-  if (lower.includes('health') || lower.includes('medical') || lower.includes('biology')) {
-    return '医疗/生物相关';
   }
   if (lower.includes('science') || lower.includes('research')) {
     return '科学/研究相关';
   }
   
-  // Default: extract key topic words
   const keywords = ['ai', 'llm', 'open source', 'coding', 'product', 'startup', 'claude', 'anthropic', 'openai', 'gpt', 'agent', 'data', 'finance', 'security'];
   const found = keywords.filter(kw => lower.includes(kw));
   if (found.length > 0) {
     return found.map(k => k.toUpperCase()).join(' / ');
   }
   
-  // Fallback: first 30 chars as summary
   return text.substring(0, 40) + (text.length > 40 ? '...' : '');
 }
 
@@ -150,9 +172,51 @@ function extractKeywords(data) {
 function analyzeActionItems(data) {
   const items = [];
   
-  // 基于 GitHub 趋势 - AI Agent 相关
-  const hotRepos = data.githubTrending?.slice(0, 3) || [];
-  const aiRepos = hotRepos.filter(r => 
+  const allRepos = data.githubTrending || [];
+  const aiRepos = allRepos.filter(r => 
+    r.fullName?.toLowerCase().includes('agent') ||
+    r.fullName?.toLowerCase().includes('claude') ||
+    r.fullName?.toLowerCase().includes('karpathy')
+  );
+  
+  if (aiRepos.length > 0) {
+    items.push({
+      type: '2-hour',
+      title: `Companion tool for ${aiRepos[0].fullName}`,
+      reason: `This project reached ${aiRepos[0].stars.toLocaleString()} stars this week, riding the surge`
+    });
+  }
+  
+  const securityHN = data.hackerNews?.find(s => 
+    s.title?.toLowerCase().includes('security') || 
+    s.title?.toLowerCase().includes('breach') ||
+    s.title?.toLowerCase().includes('vulnerability')
+  );
+  if (securityHN) {
+    items.push({
+      type: 'weekend',
+      title: `Address security concerns in "${securityHN.title.substring(0, 30)}..."`,
+      reason: `Scored ${securityHN.score} points, indicating strong developer demand for security solutions`
+    });
+  }
+  
+  const hotReddit = data.reddit?.slice(0, 2) || [];
+  if (hotReddit.length > 0) {
+    items.push({
+      type: 'weekend',
+      title: `Build solutions discussed in r/${hotReddit[0].subreddit}`,
+      reason: `Gained ${hotReddit[0].score} upvotes in r/${hotReddit[0].subreddit}`
+    });
+  }
+  
+  return items;
+}
+
+function analyzeActionItemsZH(data) {
+  const items = [];
+  
+  const allRepos = data.githubTrending || [];
+  const aiRepos = allRepos.filter(r => 
     r.fullName?.toLowerCase().includes('agent') ||
     r.fullName?.toLowerCase().includes('claude') ||
     r.fullName?.toLowerCase().includes('karpathy')
@@ -166,7 +230,6 @@ function analyzeActionItems(data) {
     });
   }
   
-  // 基于 HN 安全事件
   const securityHN = data.hackerNews?.find(s => 
     s.title?.toLowerCase().includes('security') || 
     s.title?.toLowerCase().includes('breach') ||
@@ -180,7 +243,6 @@ function analyzeActionItems(data) {
     });
   }
   
-  // 基于 Reddit 讨论
   const hotReddit = data.reddit?.slice(0, 2) || [];
   if (hotReddit.length > 0) {
     items.push({
@@ -196,7 +258,6 @@ function analyzeActionItems(data) {
 function generateTakeaway(data) {
   const takeaways = [];
   
-  // AI Agent 热度分析
   const agentRepos = data.githubTrending?.filter(r => 
     r.fullName?.toLowerCase().includes('agent')
   ) || [];
@@ -204,7 +265,6 @@ function generateTakeaway(data) {
     takeaways.push(`AI Agent 框架持续爆发：${agentRepos[0].fullName} 已达 ${agentRepos[0].stars} 星，成为本周第一热点`);
   }
   
-  // Claude 生态
   const claudeRepos = data.githubTrending?.filter(r => 
     r.fullName?.toLowerCase().includes('claude')
   ) || [];
@@ -212,7 +272,6 @@ function generateTakeaway(data) {
     takeaways.push(`Claude 生态工具快速增长：${claudeRepos.map(r => r.fullName.split('/')[1]).join(', ')} 都是本周明星项目`);
   }
   
-  // 安全事件
   const security = data.hackerNews?.find(s => 
     s.title?.toLowerCase().includes('security') || 
     s.title?.toLowerCase().includes('breach')
@@ -221,10 +280,43 @@ function generateTakeaway(data) {
     takeaways.push(`安全事件引发关注：${simpleTranslate(security.title)} (${security.score} 分) 说明开发者对安全的高度重视`);
   }
   
-  // Reddit 热点
   const redditDiscussions = data.reddit?.slice(0, 3) || [];
   if (redditDiscussions.length > 0) {
     takeaways.push(`Reddit 热门讨论：r/${redditDiscussions[0].subreddit} 上的 "${redditDiscussions[0].title?.substring(0, 30)}..."`);
+  }
+  
+  return takeaways;
+}
+
+function generateEnglishTakeaway(data) {
+  const takeaways = [];
+  
+  const agentRepos = data.githubTrending?.filter(r => 
+    r.fullName?.toLowerCase().includes('agent')
+  ) || [];
+  if (agentRepos.length > 0) {
+    takeaways.push(`AI Agent frameworks continue to surge: ${agentRepos[0].fullName} reached ${agentRepos[0].stars.toLocaleString()} stars, becoming this week's top focus`);
+  }
+  
+  const claudeRepos = data.githubTrending?.filter(r => 
+    r.fullName?.toLowerCase().includes('claude')
+  ) || [];
+  if (claudeRepos.length > 0) {
+    const names = claudeRepos.map(r => r.fullName.split('/')[1]).join(', ');
+    takeaways.push(`Claude ecosystem tools growing fast: ${names} are this week's standout projects`);
+  }
+  
+  const security = data.hackerNews?.find(s => 
+    s.title?.toLowerCase().includes('security') || 
+    s.title?.toLowerCase().includes('breach')
+  );
+  if (security) {
+    takeaways.push(`Security incident draws attention: ${security.title} (${security.score} points) shows developers' high focus on security`);
+  }
+  
+  const redditDiscussions = data.reddit?.slice(0, 3) || [];
+  if (redditDiscussions.length > 0) {
+    takeaways.push(`Reddit hot discussion: "${redditDiscussions[0].title?.substring(0, 50)}..." on r/${redditDiscussions[0].subreddit}`);
   }
   
   return takeaways;
@@ -234,7 +326,7 @@ function generateChineseReport(data) {
   const { hackerNews, githubTrending, productHunt, huggingFace, googleTrends, reddit } = data;
   const timeStr = new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
   const keywords = extractKeywords(data);
-  const actionItems = analyzeActionItems(data);
+  const actionItems = analyzeActionItemsZH(data);
   const takeaways = generateTakeaway(data);
 
   let report = `# BuilderPulse Daily — ${TODAY}\n\n`;
@@ -436,7 +528,7 @@ function generateEnglishReport(data) {
   const displayDate = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   const keywords = extractKeywords(data);
   const actionItems = analyzeActionItems(data);
-  const takeaways = generateTakeaway(data);
+  const takeaways = generateEnglishTakeaway(data);
 
   let report = `# BuilderPulse Daily — ${displayDate}\n\n`;
   report += `> **Today's top 3:**\n`;
